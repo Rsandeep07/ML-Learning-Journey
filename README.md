@@ -28,3 +28,23 @@ The goal is to build a solid foundation in:
 ## Learning Goal
 To develop a strong understanding of **machine learning algorithms, model evaluation, and end-to-end ML workflows** through consistent daily practice.
 
+---
+
+---
+
+## Daily Progress
+
+###  Day 1 – Introduction to Iris Dataset
+- Loaded the Iris dataset
+- Understood dataset structure and basic stats
+- Visualized data distributions
+- Prepared initial data exploration notebook
+
+###  Day 2 – Data Preprocessing & EDA
+- Cleaned data (handled duplicates, checked missing values)
+- Performed exploratory data analysis (EDA)
+- Visualized feature relationships using heatmaps
+- Applied MinMax scaling
+- Prepared data for KNN model training
+
+
