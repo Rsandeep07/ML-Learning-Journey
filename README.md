@@ -107,7 +107,26 @@ Ensure:
 | Train Accuracy – Test Accuracy |  <= 5%
 - This helps detect overfitting or underfitting and ensures model stability.
 
-<!-- ============================ --> <!-- DAY 4 CONTENT --> <!-- ============================ -->
+<!-- ============================ -->
+<!--        DAY 4 CONTENT         -->
+<!-- ============================ -->
+
+# Day 4 — Categorical Encoding & One-Hot Encoding
+(Starts from: “Categorical Encoding and One Hot Encoding”)
+
+### Why Encoding is Needed?
+- Machine Learning models work only with numerical data → categorical columns must be encoded.
+
+---
+
+## 🔹 Label Encoding
+
+```python
+from sklearn.preprocessing import LabelEncoder
+
+le = LabelEncoder()
+df['column'] = le.fit_transform(df['column'])
+
 
 ### Day 4 — Categorical Encoding & One-Hot Encoding:
 (Starts from: “Categorical Encoding and One Hot Encoding”)
