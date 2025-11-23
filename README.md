@@ -173,8 +173,8 @@ print("Test Accuracy:", accuracy_score(y_test, y_pred))
 - Training vs testing accuracy comparison  
 - Checked for overfitting or underfitting  
 
-### Day 3 Requirement
-| Train Accuracy – Test Accuracy | ≤ 5%  
+### Day 3 Requirement  
+| Train Accuracy – Test Accuracy | ≤ 5% |
 
 ---
 
@@ -191,7 +191,6 @@ Categorical columns must be converted to numeric form.
 ---
 
 ## Label Encoding
-
 ```python
 from sklearn.preprocessing import LabelEncoder
 
@@ -202,7 +201,6 @@ df['column'] = le.fit_transform(df['column'])
 ---
 
 ## One-Hot Encoding (Using Pandas)
-
 ```python
 df_encoded = pd.get_dummies(df, drop_first=True)
 ```
@@ -210,7 +208,6 @@ df_encoded = pd.get_dummies(df, drop_first=True)
 ---
 
 ## One-Hot Encoding (Using Scikit-Learn)
-
 ```python
 from sklearn.preprocessing import OneHotEncoder
 
@@ -221,12 +218,6 @@ encoded = ohe.fit_transform(df[['column']])
 ---
 
 ## Handling Encoded Output
-- Convert encoded output to a DataFrame  
-- Merge encoded columns with original dataset  
-- Drop original categorical columns  
-- Final ML-ready DataFrame created  
-
-Example (merge encoded output):
 ```python
 encoded_df = pd.DataFrame(encoded, columns=ohe.get_feature_names_out(['column']))
 df = pd.concat([df.reset_index(drop=True), encoded_df.reset_index(drop=True)], axis=1)
@@ -273,7 +264,6 @@ df = df.dropna()
 - Relationship between `price` vs `carat`, `depth`, `table`, `x`, `y`, `z`  
 - Count analysis of categorical features (`cut`, `color`, `clarity`)
 
-Example (distribution and scatter):
 ```python
 import matplotlib.pyplot as plt
 
@@ -288,8 +278,6 @@ plt.show()
 ```
 
 ### 3. Feature Encoding
-
-#### Label Encoding for ordinal categories
 ```python
 from sklearn.preprocessing import LabelEncoder
 
@@ -324,8 +312,6 @@ X_test_scaled = scaler.transform(X_test)
 ```
 
 ### 7. Regression Models Used
-
-#### Linear Regression
 ```python
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
@@ -337,18 +323,16 @@ print("Linear Regression R2:", r2_score(y_test, pred_lr))
 print("Linear Regression MAE:", mean_absolute_error(y_test, pred_lr))
 ```
 
-#### Random Forest Regressor
 ```python
 from sklearn.ensemble import RandomForestRegressor
 
 rf = RandomForestRegressor(random_state=42)
-rf.fit(X_train, y_train)  # using unscaled features for tree-based models is fine
+rf.fit(X_train, y_train)
 pred_rf = rf.predict(X_test)
 print("Random Forest R2:", r2_score(y_test, pred_rf))
 print("Random Forest MAE:", mean_absolute_error(y_test, pred_rf))
 ```
 
-#### Gradient Boosting Regressor
 ```python
 from sklearn.ensemble import GradientBoostingRegressor
 
@@ -359,31 +343,139 @@ print("GBR R2:", r2_score(y_test, pred_gbr))
 print("GBR MAE:", mean_absolute_error(y_test, pred_gbr))
 ```
 
-### 8. Model Evaluation Metrics
-- R² Score  
-- MAE (Mean Absolute Error)  
-- MSE (Mean Squared Error)  
-- RMSE (Root Mean Squared Error)
-
-Example (compute RMSE):
+### 8. Evaluation Metrics
 ```python
 import numpy as np
 rmse = np.sqrt(mean_squared_error(y_test, pred_gbr))
 print("GBR RMSE:", rmse)
 ```
 
-### 9. Final Conclusion
-- Tree-based ensemble models (Random Forest, Gradient Boosting) usually outperform simple linear models on this dataset due to non-linear relationships and interactions.  
-- Select your final model based on R², MAE, RMSE and cross-validation results.
-
 ---
 
 <!-- =============================================== -->
-<!--                 REPOSITORY STRUCTURE            -->
+<!--                      DAY 6                      -->
 <!-- =============================================== -->
 
-# Repository Structure
+# Day 6 — Spam vs Ham Classification (NLP Case Study)
 
+### Overview
+Day 7 focuses on building a complete SMS spam classification model using Natural Language Processing (NLP).  
+It includes text preprocessing, vectorization, model training, and evaluation.
+
+---
+
+## 1. Importing Data
+```python
+import pandas as pd
+
+df = pd.read_csv("spam.csv", encoding='latin1')
+df = df[['v1', 'v2']]
+df.columns = ['label', 'text']
+df.head()
+```
+
+---
+
+## 2. Data Cleaning & Preprocessing
+```python
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+import string
+
+ps = PorterStemmer()
+stop_words = stopwords.words('english')
+
+def clean_text(msg):
+    msg = msg.lower()
+    msg = "".join([char for char in msg if char not in string.punctuation])
+    words = msg.split()
+    words = [ps.stem(word) for word in words if word not in stop_words]
+    return " ".join(words)
+
+df['clean_text'] = df['text'].apply(clean_text)
+```
+
+---
+
+## 3. Encoding Target Variable
+```python
+df['label_encoded'] = df['label'].map({'ham': 0, 'spam': 1})
+```
+
+---
+
+## 4. Train–Test Split
+```python
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(
+    df['clean_text'], df['label_encoded'],
+    test_size=0.2, random_state=42
+)
+```
+
+---
+
+## 5. TF-IDF Vectorization
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+tfidf = TfidfVectorizer(max_features=3000)
+X_train_vec = tfidf.fit_transform(X_train)
+X_test_vec = tfidf.transform(X_test)
+```
+
+---
+
+## 6. Models Used
+
+### Naive Bayes
+```python
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
+nb = MultinomialNB()
+nb.fit(X_train_vec, y_train)
+pred_nb = nb.predict(X_test_vec)
+
+print("Accuracy:", accuracy_score(y_test, pred_nb))
+print(confusion_matrix(y_test, pred_nb))
+print(classification_report(y_test, pred_nb))
+```
+
+### Logistic Regression
+```python
+from sklearn.linear_model import LogisticRegression
+
+lr = LogisticRegression(max_iter=300)
+lr.fit(X_train_vec, y_train)
+pred_lr = lr.predict(X_test_vec)
+print("Accuracy:", accuracy_score(y_test, pred_lr))
+```
+
+### SVM (Best Model)
+```python
+from sklearn.svm import SVC
+
+svm = SVC(kernel='linear')
+svm.fit(X_train_vec, y_train)
+pred_svm = svm.predict(X_test_vec)
+print("Accuracy:", accuracy_score(y_test, pred_svm))
+```
+
+---
+
+## Results
+| Model | Accuracy |
+|-------|----------|
+| Naive Bayes | ~97–98% |
+| Logistic Regression | ~96–97% |
+| SVM | **98–99% (Best)** |
+
+---
+
+# Repository Structure
 ```
 ML-Learning-Journey/
 │
@@ -392,7 +484,7 @@ ML-Learning-Journey/
 ├── Day3.ipynb
 ├── Day4.ipynb
 ├── Day5_DiamondPricePrediction.ipynb
+├── Spam_Ham_Casestudy_day6.ipynb
 └── README.md
 ```
 
----
