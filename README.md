@@ -176,6 +176,7 @@ Overview
 <!-- =============================================== -->
 
 # Repository Structure
+```text
 ML-Learning-Journey/
 │
 ├── Day1.ipynb
