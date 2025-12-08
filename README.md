@@ -68,8 +68,11 @@ df = pd.read_csv("data.csv")
 print(df.shape)
 print(df.info())
 print(df.describe())
-<!-- =============================================== --> <!-- DAY 2 --> <!-- =============================================== -->
-Day 2 — Extended EDA and Preprocessing
+<!-- =============================================== -->
+<!--                      DAY 2                      -->
+<!-- =============================================== -->
+
+# Day 2 — Extended EDA and Preprocessing
 
 **Topics Covered**
 - Outlier detection using IQR
@@ -77,8 +80,11 @@ Day 2 — Extended EDA and Preprocessing
 - Correlation analysis
 - Heatmap visualization
 - Feature understanding and preparation
-<!-- =============================================== --> <!-- DAY 3 --> <!-- =============================================== -->
-Day 3 — Train–Test Split, Feature Scaling and Model Evaluation
+<!-- =============================================== -->
+<!--                      DAY 3                      -->
+<!-- =============================================== -->
+
+# Day 3 — Train–Test Split, Feature Scaling and Model Evaluation
 
 **Concepts Applied**
 - IRIS dataset
@@ -95,16 +101,22 @@ Day 3 — Train–Test Split, Feature Scaling and Model Evaluation
 
 | Train Accuracy – Test Accuracy | ≤ 5% |
 
-<!-- =============================================== --> <!-- DAY 4 --> <!-- =============================================== -->
-Day 4 — Categorical Encoding and One-Hot Encoding
+<!-- =============================================== -->
+<!--                      DAY 4                      -->
+<!-- =============================================== -->
+
+# Day 4 — Categorical Encoding and One-Hot Encoding
 Concepts Covered
 - Label Encoding
 - One-Hot Encoding
 - Handling encoded features
 - Updated ML pipelines
 
-<!-- =============================================== --> <!-- DAY 5 --> <!-- =============================================== -->
-Day 5 — Diamond Price Prediction (Regression)
+<!-- =============================================== -->
+<!--                      DAY 5                      -->
+<!-- =============================================== -->
+
+# Day 5 — Diamond Price Prediction (Regression)
 Workflow
 - Data cleaning and EDA
 - Feature encoding
@@ -115,8 +127,11 @@ Workflow
 - Random Forest Regressor
 - Gradient Boosting Regressor
 
-<!-- =============================================== --> <!-- DAY 6 --> <!-- =============================================== -->
-Day 6 — Spam vs Ham Classification (NLP Case Study)
+<!-- =============================================== -->
+<!--                      DAY 6                      -->
+<!-- =============================================== -->
+
+# Day 6 — Spam vs Ham Classification (NLP Case Study)
 Workflow
 - Text preprocessing and cleaning
 - TF-IDF vectorization
@@ -126,8 +141,11 @@ Workflow
 - Logistic Regression
 - Support Vector Machine (Best Model)
 
-<!-- =============================================== --> <!-- DAY 7 --> <!-- =============================================== -->
-Day 7 — K-Nearest Neighbors (KNN) – Supervised Learning
+<!-- =============================================== -->
+<!--                      DAY 7                      -->
+<!-- =============================================== -->
+
+# Day 7 — K-Nearest Neighbors (KNN) – Supervised Learning
 Overview
 - Focused on understanding the internal working of the K-Nearest Neighbors (KNN) algorithm using Euclidean distance and manual neighbor selection.
 -**Topics Covered**
@@ -137,8 +155,11 @@ Overview
 - Majority voting for classification
 - Concept-first implementation of KNN
 
-<!-- =============================================== --> <!-- REPOSITORY STRUCTURE --> <!-- =============================================== -->
-Repository Structure
+<!-- =============================================== -->
+<!--         REPOSITORY STRUCTURE                    -->
+<!-- =============================================== -->
+
+# Repository Structure
 ML-Learning-Journey/
 │
 ├── Day1.ipynb
