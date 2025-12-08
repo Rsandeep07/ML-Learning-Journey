@@ -69,6 +69,8 @@ print(df.shape)
 print(df.info())
 print(df.describe())
 
+---
+
 <!-- =============================================== -->
 <!--                      DAY 2                      -->
 <!-- =============================================== -->
@@ -81,6 +83,8 @@ print(df.describe())
 - Correlation analysis
 - Heatmap visualization
 - Feature understanding and preparation
+
+---
 
 <!-- =============================================== -->
 <!--                      DAY 3                      -->
@@ -103,6 +107,8 @@ print(df.describe())
 
 | Train Accuracy – Test Accuracy | ≤ 5% |
 
+---
+
 <!-- =============================================== -->
 <!--                      DAY 4                      -->
 <!-- =============================================== -->
@@ -113,6 +119,8 @@ Concepts Covered
 - One-Hot Encoding
 - Handling encoded features
 - Updated ML pipelines
+
+---
 
 <!-- =============================================== -->
 <!--                      DAY 5                      -->
@@ -129,6 +137,8 @@ Workflow
 - Random Forest Regressor
 - Gradient Boosting Regressor
 
+---
+
 <!-- =============================================== -->
 <!--                      DAY 6                      -->
 <!-- =============================================== -->
@@ -143,6 +153,8 @@ Workflow
 - Logistic Regression
 - Support Vector Machine (Best Model)
 
+---
+
 <!-- =============================================== -->
 <!--                      DAY 7                      -->
 <!-- =============================================== -->
@@ -156,6 +168,8 @@ Overview
 - Nearest neighbor selection
 - Majority voting for classification
 - Concept-first implementation of KNN
+
+---
 
 <!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
