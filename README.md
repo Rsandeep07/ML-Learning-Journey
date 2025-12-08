@@ -75,7 +75,7 @@ print(df.describe())
 <!--                      DAY 2                      -->
 <!-- =============================================== -->
 
-# Day 2 — Extended EDA and Preprocessing
+ Day 2 — Extended EDA and Preprocessing
 
 **Topics Covered**
 - Outlier detection using IQR
