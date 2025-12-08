@@ -68,6 +68,7 @@ df = pd.read_csv("data.csv")
 print(df.shape)
 print(df.info())
 print(df.describe())
+
 <!-- =============================================== -->
 <!--                      DAY 2                      -->
 <!-- =============================================== -->
@@ -80,6 +81,7 @@ print(df.describe())
 - Correlation analysis
 - Heatmap visualization
 - Feature understanding and preparation
+
 <!-- =============================================== -->
 <!--                      DAY 3                      -->
 <!-- =============================================== -->
