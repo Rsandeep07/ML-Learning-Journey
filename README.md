@@ -172,6 +172,38 @@ Overview
 ---
 
 <!-- =============================================== -->
+<!--                      DAY 8                     -->
+<!-- =============================================== -->
+
+## 🌳 Day 8 – Decision Tree (Supervised Learning)
+
+In this stage of my machine learning learning journey, I explored the **Decision Tree algorithm**, a rule-based supervised learning model used for classification and regression. This notebook follows **KNN (Day 7)** and demonstrates the transition from a **distance-based approach** to a **decision-rule based and interpretable model**.
+
+### Topics Covered
+- Decision Tree intuition and working
+- Classification trees
+- Common split criteria (Gini, Entropy, Information Gain)
+- Why feature scaling is not required for Decision Trees
+- Handling categorical features using encoding
+- Overfitting in Decision Trees and depth control
+- Tree visualization and rule interpretation
+
+### Implementation Highlights
+- Built a **Decision Tree Classifier** using `scikit-learn`
+- Trained on a small custom dataset
+- Visualized the tree structure
+- Extracted **human-readable if–else decision rules**
+- Evaluated model performance using accuracy
+
+### Key Learnings
+- Decision Trees learn simple rules from data to make predictions
+- No feature scaling is required for tree-based models
+- Controlling tree depth is essential to prevent overfitting
+- Decision Trees are interpretable but sensitive to data changes
+
+---
+
+<!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
 <!-- =============================================== -->
 
@@ -185,6 +217,7 @@ ML-Learning-Journey/
 ├── Day4.ipynb
 ├── Day5_DiamondPricePrediction.ipynb
 ├── Spam_Ham_Casestudy_day6.ipynb
-├── Day7_KNN_Supervised_Learning.ipynb
+├── Day7_KNN.ipynb
+├── ML_Supervised_learning_DT.ipynb   # Day 8 – Decision Tree
 └── README.md
 
