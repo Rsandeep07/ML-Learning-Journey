@@ -172,10 +172,10 @@ Overview
 ---
 
 <!-- =============================================== -->
-<!--                      DAY 8                     -->
+<!--                      DAY 8                      -->
 <!-- =============================================== -->
 
-## 🌳 Day 8 – Decision Tree (Supervised Learning)
+##  Day 8 – Decision Tree (Supervised Learning)
 
 In this stage of my machine learning learning journey, I explored the **Decision Tree algorithm**, a rule-based supervised learning model used for classification and regression. This notebook follows **KNN (Day 7)** and demonstrates the transition from a **distance-based approach** to a **decision-rule based and interpretable model**.
 
@@ -204,6 +204,39 @@ In this stage of my machine learning learning journey, I explored the **Decision
 ---
 
 <!-- =============================================== -->
+<!--                      DAY 9                      -->
+<!-- =============================================== -->
+
+##  Decision Trees — Classification & Regression
+
+This notebook covers both **Decision Tree Classification and Regression**, focusing on how tree-based models learn decision rules directly from data. It builds on earlier supervised learning concepts and highlights the interpretability of tree-based approaches.
+
+### Topics Covered
+- Decision Tree fundamentals
+- Difference between classification and regression trees
+- Splitting criteria:
+  - Gini Index
+  - Entropy & Information Gain
+  - Mean Squared Error (for regression)
+- Tree depth, leaf nodes, and stopping conditions
+- Overfitting and pruning concepts
+- Why feature scaling is not required for Decision Trees
+
+### Implementation Highlights
+- Implemented **DecisionTreeClassifier** and **DecisionTreeRegressor** using `scikit-learn`
+- Trained models on structured datasets
+- Visualized decision trees
+- Interpreted splits using human-readable rules
+- Evaluated models using appropriate performance metrics
+
+### Key Learnings
+- Decision Trees create rule-based models that are easy to interpret
+- Classification and regression trees differ mainly in split criteria
+- Tree depth control is critical to avoid overfitting
+- Tree-based models work well without feature scaling
+
+---
+<!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
 <!-- =============================================== -->
 
@@ -219,5 +252,6 @@ ML-Learning-Journey/
 ├── Spam_Ham_Casestudy_day6.ipynb
 ├── Day7_KNN.ipynb
 ├── ML_Supervised_learning_DT.ipynb   # Day 8 – Decision Tree
+├── DecisionTrees_Classification_Regression.ipynb
 └── README.md
 
