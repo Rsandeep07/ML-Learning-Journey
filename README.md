@@ -22,15 +22,27 @@ Each notebook covers a specific concept or dataset, combining both theory and pr
 <!--                 CORE SKILLS COVERED             -->
 <!-- =============================================== -->
 
-## Core Skills Covered
-- Exploratory Data Analysis (EDA)  
+##  Core Skills & Techniques Covered
+
+### Core Machine Learning Skills
 - Data Cleaning and Preprocessing  
+- Exploratory Data Analysis (EDA)  
 - Feature Engineering  
 - Handling Categorical and Numerical Data  
 - Train–Test Split and Standardization  
 - Supervised Learning Models  
 - Model Evaluation and Hyperparameter Tuning  
 - Building end-to-end ML pipelines  
+
+### Hands-on Techniques Practiced
+- Data loading and validation  
+- Feature–target segregation  
+- Train–test split  
+- Baseline model building  
+- Decision Tree modeling  
+- Model complexity control  
+- Feature importance analysis  
+- Outlier handling techniques  
 
 ---
 
@@ -175,7 +187,7 @@ Overview
 <!--                      DAY 8                      -->
 <!-- =============================================== -->
 
-##  Day 8 – Decision Tree (Supervised Learning)
+#  Day 8 – Decision Tree (Supervised Learning)
 
 - This notebook explores Decision Trees, transitioning from distance-based models (KNN) to rule-based and interpretable models.
 
@@ -200,7 +212,7 @@ Overview
 <!--                      DAY 9                      -->
 <!-- =============================================== -->
 
-## Day 9 - Wine Classification using KNN & Decision Tree
+# Day 9 - Wine Classification using KNN & Decision Tree
 
 This notebook applies supervised learning models on the Wine dataset, focusing on model comparison and interpretability.
 
@@ -218,20 +230,7 @@ This notebook applies supervised learning models on the Wine dataset, focusing o
 ### Key Focus
 - Understanding model behavior, feature influence, and decision logic rather than optimization.
 
----
 
-
-##  Core Concepts Covered
-
-- Data loading and validation  
-- Exploratory Data Analysis (EDA)  
-- Feature–target segregation  
-- Train–test split  
-- Baseline model building  
-- Decision Tree modeling  
-- Model complexity control  
-- Feature importance analysis  
-- Outlier handling techniques  
 
 
 ---
