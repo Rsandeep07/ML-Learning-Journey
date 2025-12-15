@@ -200,7 +200,7 @@ Overview
 <!--                      DAY 9                      -->
 <!-- =============================================== -->
 
-## Wine Classification using KNN & Decision Tree
+## Day 9 - Wine Classification using KNN & Decision Tree
 
 This notebook applies supervised learning models on the Wine dataset, focusing on model comparison and interpretability.
 
