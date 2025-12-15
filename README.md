@@ -177,7 +177,7 @@ Overview
 
 ##  Day 8 – Decision Tree (Supervised Learning)
 
-In this stage of my machine learning learning journey, I explored the **Decision Tree algorithm**, a rule-based supervised learning model used for classification and regression. This notebook follows **KNN (Day 7)** and demonstrates the transition from a **distance-based approach** to a **decision-rule based and interpretable model**.
+- This notebook explores Decision Trees, transitioning from distance-based models (KNN) to rule-based and interpretable models.
 
 ### Topics Covered
 - Decision Tree intuition and working
@@ -187,13 +187,6 @@ In this stage of my machine learning learning journey, I explored the **Decision
 - Handling categorical features using encoding
 - Overfitting in Decision Trees and depth control
 - Tree visualization and rule interpretation
-
-### Implementation Highlights
-- Built a **Decision Tree Classifier** using `scikit-learn`
-- Trained on a small custom dataset
-- Visualized the tree structure
-- Extracted **human-readable if–else decision rules**
-- Evaluated model performance using accuracy
 
 ### Key Learnings
 - Decision Trees learn simple rules from data to make predictions
@@ -207,60 +200,26 @@ In this stage of my machine learning learning journey, I explored the **Decision
 <!--                      DAY 9                      -->
 <!-- =============================================== -->
 
-##  Decision Trees — Classification & Regression
+## Wine Classification using KNN & Decision Tree
 
-This notebook covers both **Decision Tree Classification and Regression**, focusing on how tree-based models learn decision rules directly from data. It builds on earlier supervised learning concepts and highlights the interpretability of tree-based approaches.
+This notebook applies supervised learning models on the Wine dataset, focusing on model comparison and interpretability.
 
-### Topics Covered
-- Decision Tree fundamentals
-- Difference between classification and regression trees
-- Splitting criteria:
-  - Gini Index
-  - Entropy & Information Gain
-  - Mean Squared Error (for regression)
-- Tree depth, leaf nodes, and stopping conditions
-- Overfitting and pruning concepts
-- Why feature scaling is not required for Decision Trees
+- **`Topics Covered`**
+  - Dataset loading and validation
+  - Minimal exploratory data analysis
+  - Feature–target segregation
+  - Baseline model using KNN
+  - Accuracy-based evaluation
+  - Decision Tree training and depth analysis
+  - Tree visualization
+  - Truncation for basic outlier handling
+  - Feature importance extraction and visualization
 
-### Implementation Highlights
-- Implemented **DecisionTreeClassifier** and **DecisionTreeRegressor** using `scikit-learn`
-- Trained models on structured datasets
-- Visualized decision trees
-- Interpreted splits using human-readable rules
-- Evaluated models using appropriate performance metrics
-
-### Key Learnings
-- Decision Trees create rule-based models that are easy to interpret
-- Classification and regression trees differ mainly in split criteria
-- Tree depth control is critical to avoid overfitting
-- Tree-based models work well without feature scaling
+### Key Focus
+- Understanding model behavior, feature influence, and decision logic rather than optimization.
 
 ---
 
-<!-- =============================================== -->
-<!--                      DAY 9                      -->
-<!-- =============================================== -->
-
-# ML Learning Journey
-
-This repository documents my **daily, hands-on learning journey in Machine Learning**.  
-Each notebook focuses on understanding **core concepts through implementation**, with emphasis on data preparation, model behavior, and interpretability.
-
-The goal of this repository is to build **strong fundamentals** by practicing concepts step by step rather than jumping directly to complex pipelines.
-
----
-
-##  What This Repository Contains
-
-- Daily Jupyter notebooks covering core ML topics  
-- Clean and minimal Exploratory Data Analysis (EDA)  
-- Supervised learning models with practical reasoning  
-- Feature preprocessing and basic outlier handling  
-- Model evaluation and interpretability-focused experiments  
-
-All notebooks are created as part of **continuous learning and practice**.
-
----
 
 ##  Core Concepts Covered
 
