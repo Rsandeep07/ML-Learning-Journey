@@ -236,6 +236,47 @@ This notebook covers both **Decision Tree Classification and Regression**, focus
 - Tree-based models work well without feature scaling
 
 ---
+
+<!-- =============================================== -->
+<!--                      DAY 9                      -->
+<!-- =============================================== -->
+
+# ML Learning Journey
+
+This repository documents my **daily, hands-on learning journey in Machine Learning**.  
+Each notebook focuses on understanding **core concepts through implementation**, with emphasis on data preparation, model behavior, and interpretability.
+
+The goal of this repository is to build **strong fundamentals** by practicing concepts step by step rather than jumping directly to complex pipelines.
+
+---
+
+##  What This Repository Contains
+
+- Daily Jupyter notebooks covering core ML topics  
+- Clean and minimal Exploratory Data Analysis (EDA)  
+- Supervised learning models with practical reasoning  
+- Feature preprocessing and basic outlier handling  
+- Model evaluation and interpretability-focused experiments  
+
+All notebooks are created as part of **continuous learning and practice**.
+
+---
+
+##  Core Concepts Covered
+
+- Data loading and validation  
+- Exploratory Data Analysis (EDA)  
+- Feature–target segregation  
+- Train–test split  
+- Baseline model building  
+- Decision Tree modeling  
+- Model complexity control  
+- Feature importance analysis  
+- Outlier handling techniques  
+
+
+---
+
 <!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
 <!-- =============================================== -->
