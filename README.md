@@ -294,5 +294,6 @@ ML-Learning-Journey/
 ├── Day7_KNN.ipynb
 ├── ML_Supervised_learning_DT.ipynb   # Day 8 – Decision Tree
 ├── DecisionTrees_Classification_Regression.ipynb
+├── Wine_Classification_KNN_DecisionTree.ipynb  # Day 9
 └── README.md
 
