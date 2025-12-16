@@ -236,6 +236,65 @@ This notebook applies supervised learning models on the Wine dataset, focusing o
 ---
 
 <!-- =============================================== -->
+<!--                      DAY 10                     -->
+<!-- =============================================== -->
+
+# Day 10 — Missing Values, Feature Engineering & Model Evaluation
+
+This notebook focuses on understanding **missing data mechanisms**, applying appropriate **imputation strategies**, and analyzing their impact on **model performance**.
+
+### Topics Covered
+- Importance of Feature Engineering in Machine Learning
+- Role of domain knowledge in feature engineering
+- Missing values identification and analysis
+- Understanding why missing values occur in real-world data
+- Missing value heuristics and decision rules
+
+### Missing Value Mechanisms
+- **MCAR (Missing Completely At Random)**
+  - Missingness is purely random
+  - No dependency on any feature or value
+- **MAR (Missing At Random)**
+  - Missingness depends on other observed features
+- **MNAR (Missing Not At Random)**
+  - Missingness depends on the value of the feature itself
+
+### Imputation Strategies Applied
+- **Simple Imputer**
+  - Mean / Median / Mode
+  - Constant value imputation (for learning purposes)
+- **KNN Imputer**
+  - Similarity-based imputation using nearest neighbors
+  - Suitable for MAR-type missingness
+
+### Key Heuristic Used
+- If a feature has **≥ 40% missing values**:
+  - Drop the feature if it is **fiscal/financial**
+  - Otherwise, attempt **data collection or enrichment**
+
+### Data Science Workflow Followed
+- Dataset loading and understanding
+- Missing value detection and percentage analysis
+- Identification of missingness type (MCAR / MAR / MNAR)
+- Appropriate imputation strategy selection
+- Train–test split
+- Model building with preprocessing
+- Model performance evaluation
+- Comparison of performance before and after imputation
+
+### Best Practices Highlighted
+- Imputation is performed **only on training data**
+- Test data is transformed using the fitted imputer
+- Prevention of **data leakage** using proper preprocessing flow
+- Usage of **ColumnTransformer** for consistent transformations
+
+### Key Takeaway
+Feature engineering—especially handling missing values correctly—plays a crucial role in determining the success of a Machine Learning model. Model performance should always be evaluated before and after preprocessing decisions.
+
+
+---
+
+<!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
 <!-- =============================================== -->
 
