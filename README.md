@@ -295,6 +295,52 @@ Feature engineering—especially handling missing values correctly—plays a cru
 ---
 
 <!-- =============================================== -->
+<!--                      DAY 11                     -->
+<!-- =============================================== -->
+
+# Day 11 — Advanced Missing Value Imputation & Preprocessing Pipelines
+
+This notebook focuses on **advanced missing value handling techniques** and building
+**production-style preprocessing pipelines** using Scikit-learn.
+
+The goal is to move beyond basic imputation and understand how to handle
+**mixed numerical and categorical data** in a clean, scalable way.
+
+### Topics Covered
+- Creating synthetic datasets to demonstrate imputation behavior
+- Manual introduction of missing values
+- KNN Imputation for numerical features
+- Encoding categorical variables for imputation
+- Iterative Imputer for multivariate missing value estimation
+- Handling mixed data types (numerical + categorical)
+- Random Forest–based imputation strategies
+- ColumnTransformer for column-wise preprocessing
+- Pipeline construction for end-to-end preprocessing
+- Preventing data leakage using proper transformation flow
+
+### Imputation Techniques Applied
+- **KNN Imputer**
+  - Distance-based imputation
+  - Suitable for numerical features with similarity patterns
+- **Iterative Imputer**
+  - Predicts missing values using other features
+  - Uses:
+    - Decision Tree estimator
+    - Random Forest Classifier (categorical features)
+    - Random Forest Regressor (numerical features)
+
+### Key Learnings
+- Simple imputation is not always sufficient
+- Feature relationships can significantly improve imputation quality
+- Categorical and numerical features must be handled differently
+- Pipelines ensure reproducibility and cleaner ML workflows
+- Proper preprocessing is essential before model training
+
+### Notebook
+- `missing_value_imputation_pipeline.ipynb`
+
+
+<!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
 <!-- =============================================== -->
 
@@ -313,5 +359,6 @@ ML-Learning-Journey/
 ├── DecisionTrees_Classification_Regression.ipynb
 ├── Wine_Classification_KNN_DecisionTree.ipynb  # Day 9
 ├── Day10_Missing_Values_Feature_Engineering.ipynb
+├── Day11_missing_value_imputation.ipynb
 └── README.md
 
