@@ -339,6 +339,40 @@ The goal is to move beyond basic imputation and understand how to handle
 ### Notebook
 - `missing_value_imputation_pipeline.ipynb`
 
+---
+
+<!-- =============================================== -->
+<!--                      DAY 15                     -->
+<!-- =============================================== -->
+
+# Day 15 — Handling Imbalanced Data: Oversampling & SMOTE
+
+This notebook focuses on **data-level techniques** to address class imbalance and improve model learning for minority classes.
+
+### Topics Covered
+- Understanding class imbalance and its impact on ML models  
+- Data-level approaches: Over-sampling vs Under-sampling  
+- Random Over-sampling (ROS) and its limitations  
+- Over-sampling with noise and shrinkage factor concept  
+- SMOTE: Synthetic Minority Over-sampling Technique  
+- How synthetic samples are generated using interpolation  
+- When to use:
+  - SMOTE (numerical features)  
+  - SMOTENC (mixed features)  
+  - SMOTEN (categorical features)  
+- Class distribution comparison before and after resampling  
+
+### Key Learnings
+- Imbalanced data can bias models toward the majority class  
+- Random oversampling may lead to overfitting due to duplication  
+- Adding noise introduces variation but must be controlled  
+- SMOTE generates meaningful synthetic samples instead of copies  
+- Choosing the right resampling strategy depends on data type  
+
+### Focus
+To understand how resampling techniques help models learn better decision boundaries and improve minority class performance.
+
+
 
 <!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
@@ -360,5 +394,6 @@ ML-Learning-Journey/
 ├── Wine_Classification_KNN_DecisionTree.ipynb  # Day 9
 ├── Day10_Missing_Values_Feature_Engineering.ipynb
 ├── Day11_missing_value_imputation.ipynb
+├── Day15_Imbalanced_Data_SMOTE.ipynb        # Handling Imbalanced Data
 └── README.md
 
