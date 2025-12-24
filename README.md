@@ -372,6 +372,54 @@ This notebook focuses on **data-level techniques** to address class imbalance an
 ### Focus
 To understand how resampling techniques help models learn better decision boundaries and improve minority class performance.
 
+---
+
+<!-- =============================================== -->
+<!--                      DAY 15                     -->
+<!-- =============================================== -->  
+
+# Day 16 — Handling Imbalanced Data: ADASYN, Under-Sampling & Evaluation Metrics
+
+This notebook extends the imbalanced learning concepts from Day 15 by exploring
+**adaptive over-sampling** and **cleaning-based under-sampling techniques**, applied on the
+**Breast Cancer dataset**, along with a revision of key evaluation metrics.
+
+### Topics Covered
+- Limitations of basic over-sampling and SMOTE  
+- ADASYN: Adaptive Synthetic Sampling technique  
+- KNN-based difficulty score for minority samples  
+- How ADASYN focuses on hard-to-learn boundary points  
+- Under-sampling strategies:
+  - Random Under-Sampling (RUS)  
+  - Tomek Links for boundary cleaning  
+  - Condensed Nearest Neighbors (CNN)  
+- Applying resampling **only on training data**  
+- Feature scaling before distance-based resampling  
+- Class distribution comparison after each method  
+
+### Dataset Used
+- **Breast Cancer Wisconsin Dataset** (`sklearn.datasets`)
+- Binary classification problem:
+  - Malignant vs Benign
+
+### Key Learnings
+- Not all minority samples are equally important — ADASYN adapts to data difficulty  
+- ADASYN generates more samples near decision boundaries  
+- Random under-sampling is fast but risks information loss  
+- Tomek Links help remove noisy and overlapping majority samples  
+- CNN retains only critical boundary samples for compact datasets  
+- Resampling strategies significantly affect class distributions and model learning  
+- For imbalanced data, accuracy alone is misleading — better to use:
+  - Precision, Recall, F1-score, ROC-AUC  
+
+### Focus
+To understand **adaptive over-sampling**, **cleaning-based under-sampling**, and how
+different imbalance handling techniques reshape the dataset and influence learning
+before model training.
+
+
+---
+
 
 
 <!-- =============================================== -->
@@ -395,5 +443,6 @@ ML-Learning-Journey/
 ├── Day10_Missing_Values_Feature_Engineering.ipynb
 ├── Day11_missing_value_imputation.ipynb
 ├── Day15_Imbalanced_Data_SMOTE.ipynb        # Handling Imbalanced Data
+├── Day16_Imbalanced_Data_ADASYN_Breast_Cancer.ipynb
 └── README.md
 
