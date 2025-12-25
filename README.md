@@ -342,6 +342,77 @@ The goal is to move beyond basic imputation and understand how to handle
 ---
 
 <!-- =============================================== -->
+<!--                      DAY 13                     -->
+<!-- =============================================== -->
+
+# Day 13 — Outlier Detection | Credit Card Fraud Detection
+
+This notebook focuses on understanding **outliers and anomalies** in data and applying
+**unsupervised outlier detection algorithms** to a real-world **Credit Card Fraud Detection** dataset.
+
+### Topics Covered
+- What is an outlier and why it matters in Machine Learning  
+- Types of outliers:
+  - Errors and noise  
+  - Rare events (fraud/anomalies)  
+  - Natural extreme values  
+- Impact of outliers on:
+  - Statistical measures  
+  - Model performance and generalization  
+- Difference between:
+  - **Univariate outlier detection**  
+  - **Multivariate outlier detection**  
+
+### Outlier Detection Approaches
+- Statistical intuition for univariate methods  
+- Distance & density-based methods for multivariate data  
+- Overview of popular libraries:
+  - **PyOD** ecosystem  
+  - Scikit-learn implementations  
+
+### Algorithms Explored
+- **Isolation Forest**
+  - Tree-based anomaly detection  
+  - Isolates rare points using random splits  
+  - Uses anomaly score and path length intuition  
+- **Local Outlier Factor (LOF)**
+  - Density-based approach  
+  - Compares local density of a point with its neighbors  
+  - Detects samples that lie in sparse regions  
+
+### Key Concepts
+- **Contamination parameter**
+  - Represents expected proportion of anomalies  
+  - Used to set threshold for labeling fraud cases  
+- Mapping anomaly predictions to binary fraud labels  
+- Importance of handling highly imbalanced anomaly datasets  
+
+### Case Study: Credit Card Fraud Detection
+- Dataset loading and inspection  
+- Severe class imbalance analysis  
+- Duplicate record removal  
+- Feature–target segregation  
+- Train–test split with stratification  
+- Baseline dummy prediction to show imbalance bias  
+- Applying:
+  - Isolation Forest on training data  
+  - LOF with contamination tuned to fraud ratio  
+- Evaluation using accuracy to highlight imbalance effects  
+
+### Key Learnings
+- Outlier detection is crucial for rare-event problems like fraud  
+- Unsupervised models can detect anomalies without labels  
+- Isolation Forest is efficient for high-dimensional data  
+- LOF is powerful for local density-based anomalies  
+- Accuracy alone is misleading for imbalanced anomaly detection  
+- Proper contamination setting strongly influences results  
+
+### Focus
+To understand anomaly detection techniques and apply them to a real-world fraud dataset, emphasizing intuition, workflow, and challenges of imbalanced data.
+
+---
+
+<!-- =============================================== -->
 <!--                      DAY 15                     -->
 <!-- =============================================== -->
 
