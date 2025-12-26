@@ -446,7 +446,7 @@ To understand how resampling techniques help models learn better decision bounda
 ---
 
 <!-- =============================================== -->
-<!--                      DAY 15                     -->
+<!--                      DAY 16                     -->
 <!-- =============================================== -->  
 
 # Day 16 — Handling Imbalanced Data: ADASYN, Under-Sampling & Evaluation Metrics
@@ -491,6 +491,74 @@ before model training.
 
 ---
 
+<!-- =============================================== -->
+<!--                      DAY 17                     -->
+<!-- =============================================== -->
+
+# Day 17 — Evaluation Metrics, Baseline Models & Tomek Links
+
+This notebook focuses on understanding how to **evaluate machine learning models properly** and how to use
+**simple baseline models** as benchmarks, along with revisiting **Tomek Links** as a boundary cleaning technique
+for imbalanced datasets.
+
+The goal is to strengthen intuition around **model usefulness** rather than just building models.
+
+### Topics Covered
+- Classification vs Regression problems  
+- Role of evaluation in Machine Learning  
+- Baseline models:
+  - **Mean model** for regression  
+  - **Mode model** for classification  
+- Why baseline models are important as benchmarks  
+- Revisiting imbalanced data challenges  
+- **Tomek Links**:
+  - Nearest neighbor pairs from opposite classes  
+  - Removing majority class samples near decision boundary  
+- Understanding **True / False** and **Positive / Negative** cases  
+- Confusion Matrix:
+  - TP, TN, FP, FN  
+
+### Evaluation Metrics — Classification
+- **Accuracy**
+- **Precision**
+- **Recall (Sensitivity)**
+- **F1 Score**
+- **ROC–AUC Curve**
+- **Precision–Recall Curve**
+- Why accuracy alone is misleading for imbalanced datasets  
+
+### Regression Evaluation
+- Mean Absolute Error (MAE)  
+- Mean Squared Error (MSE)  
+- Root Mean Squared Error (RMSE)  
+- R² Score  
+- Comparing ML models against the **Mean baseline model**  
+
+### Real-World Intuition
+- COVID-19 example:
+  - Positive → infected  
+  - Negative → not infected  
+- Spam vs Ham email classification  
+- Why we mainly focus on the **positive class** in evaluation  
+
+### Key Learnings
+- Always build a simple baseline before training ML models  
+- ML models are useful only if they outperform baselines  
+- Precision and Recall are more meaningful than Accuracy for imbalanced data  
+- Confusion matrix forms the base for all classification metrics  
+- Tomek Links help clean noisy majority samples near class boundaries  
+- Proper evaluation is critical for reliable ML systems  
+
+### Focus
+To understand **how to judge model performance**, use **baseline benchmarks**, and apply
+evaluation metrics correctly, especially in the presence of **imbalanced datasets**.
+
+### Notebook
+- `day_17_evaluation_metrics_and_baselines.ipynb`
+
+---
+
+
 
 
 <!-- =============================================== -->
@@ -515,5 +583,6 @@ ML-Learning-Journey/
 ├── Day11_missing_value_imputation.ipynb
 ├── Day15_Imbalanced_Data_SMOTE.ipynb        # Handling Imbalanced Data
 ├── Day16_Imbalanced_Data_ADASYN_Breast_Cancer.ipynb
+├── day_17_evaluation_metrics_and_baselines.ipynb
 └── README.md
 
