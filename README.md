@@ -342,6 +342,35 @@ The goal is to move beyond basic imputation and understand how to handle
 ---
 
 <!-- =============================================== -->
+<!--                    DAY 12                       -->
+<!-- =============================================== -->
+
+## 📅 Day 12: Handling Imbalanced Data & Oversampling Techniques
+
+On Day 12 of my Machine Learning learning journey, I focused on understanding the problem of **imbalanced datasets**, why they affect model performance, and explored different strategies to handle class imbalance using data-level, algorithm-level, and ensemble-based approaches.
+
+---
+
+### 📌 Topics Covered
+
+#### 🔹 What is Imbalanced Data?
+- When target classes are not represented equally in a dataset  
+- Majority vs Minority class concept  
+- Real-world examples (fraud detection, disease prediction, churn, etc.)
+
+#### 🔹 Why Imbalanced Data is a Problem?
+- Most ML algorithms assume balanced class distribution  
+- Leads to biased models favoring the majority class  
+- High accuracy but poor minority class performance  
+
+#### 🔹 Detecting Imbalance
+- Using class distribution:
+```python
+y.value_counts()
+
+---
+
+<!-- =============================================== -->
 <!--                      DAY 13                     -->
 <!-- =============================================== -->
 
@@ -581,6 +610,7 @@ ML-Learning-Journey/
 ├── Wine_Classification_KNN_DecisionTree.ipynb  # Day 9
 ├── Day10_Missing_Values_Feature_Engineering.ipynb
 ├── Day11_missing_value_imputation.ipynb
+├── Day12_Handling_Imbalanced_Data_and_Oversampling.ipynb
 ├── Day15_Imbalanced_Data_SMOTE.ipynb        # Handling Imbalanced Data
 ├── Day16_Imbalanced_Data_ADASYN_Breast_Cancer.ipynb
 ├── day_17_evaluation_metrics_and_baselines.ipynb
