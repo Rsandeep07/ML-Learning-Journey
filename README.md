@@ -588,6 +588,89 @@ evaluation metrics correctly, especially in the presence of **imbalanced dataset
 
 ---
 
+<!-- =============================================== -->
+<!--                      DAY 18                     -->
+<!-- =============================================== -->
+
+#  Day 18 – Classification Metrics (Part 2)
+
+This notebook is part of my **ML Learning Journey**, focusing on a deep understanding of **classification evaluation metrics** and how to choose the **right metric based on real-world problem context**.
+
+---
+
+##  Objective
+To understand how classification models are evaluated using confusion-matrix–based metrics and to learn **when and why** each metric should be used.
+
+---
+
+##  Topics Covered
+
+###  Confusion Matrix
+- True Positive (TP)  
+- True Negative (TN)  
+- False Positive (FP)  
+- False Negative (FN)  
+
+###  Classification Metrics
+- Accuracy  
+- Precision (Positive Predictive Value)  
+- Recall (Sensitivity / True Positive Rate)  
+- Specificity (True Negative Rate)  
+- False Positive Rate (FPR)  
+- False Negative Rate (FNR)  
+- F1 Score (Harmonic Mean of Precision & Recall)
+
+---
+
+##  Metric Formulae
+
+- **Accuracy** = (TP + TN) / (TP + TN + FP + FN)  
+- **Precision** = TP / (TP + FP)  
+- **Recall** = TP / (TP + FN)  
+- **Specificity** = TN / (TN + FP)  
+- **F1 Score** = 2 × (Precision × Recall) / (Precision + Recall)
+
+---
+
+##  Key Learning: Choosing the Right Metric
+
+Metric selection depends on the **cost of misclassification**:
+
+| Scenario | Costly Error | Preferred Metric |
+|--------|-------------|------------------|
+| Spam Detection | False Positive | Precision |
+| Disease Screening | False Negative | Recall |
+| Fraud Detection | False Negative | Recall |
+| Balanced Importance | FP & FN | F1 Score |
+
+---
+
+##  Real-World Case Studies
+- **Spam vs Ham classification**
+- **Healthcare / Covid testing**
+- Understanding why accuracy alone is often misleading
+
+---
+
+##  Key Takeaways
+- Confusion matrix is the foundation of all classification metrics  
+- Accuracy is not reliable for imbalanced datasets  
+- Precision, Recall, and F1 Score provide better insights  
+- Metric choice must align with **business and real-world impact**
+
+---
+
+##  Notebook Included
+- `Day_18_Classification_Metrics_Part_2.ipynb`
+
+---
+
+##  Part of ML Learning Journey
+This notebook continues my structured, day-wise exploration of Machine Learning concepts with both **theory and intuition**.
+
+
+
+
 
 
 
@@ -615,5 +698,6 @@ ML-Learning-Journey/
 ├── Day15_Imbalanced_Data_SMOTE.ipynb        # Handling Imbalanced Data
 ├── Day16_Imbalanced_Data_ADASYN_Breast_Cancer.ipynb
 ├── day_17_evaluation_metrics_and_baselines.ipynb
+├── Day_18_Classification_Metrics_Part_2.ipynb
 └── README.md
 
