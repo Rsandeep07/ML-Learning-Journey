@@ -443,10 +443,10 @@ To understand anomaly detection techniques and apply them to a real-world fraud 
 ---
 
 <!-- =============================================== -->
-<!--                      DAY 15                     -->
+<!--                      DAY 14                     -->
 <!-- =============================================== -->
 
-# Day 15 — Handling Imbalanced Data: Oversampling & SMOTE
+# Day 14 — Handling Imbalanced Data: Oversampling & SMOTE
 
 This notebook focuses on **data-level techniques** to address class imbalance and improve model learning for minority classes.
 
@@ -476,10 +476,10 @@ To understand how resampling techniques help models learn better decision bounda
 ---
 
 <!-- =============================================== -->
-<!--                      DAY 16                     -->
+<!--                      DAY 15                     -->
 <!-- =============================================== -->  
 
-# Day 16 — Handling Imbalanced Data: ADASYN, Under-Sampling & Evaluation Metrics
+# Day 15 — Handling Imbalanced Data: ADASYN, Under-Sampling & Evaluation Metrics
 
 This notebook extends the imbalanced learning concepts from Day 15 by exploring
 **adaptive over-sampling** and **cleaning-based under-sampling techniques**, applied on the
@@ -522,10 +522,10 @@ before model training.
 ---
 
 <!-- =============================================== -->
-<!--                      DAY 17                     -->
+<!--                      DAY 16                     -->
 <!-- =============================================== -->
 
-# Day 17 — Evaluation Metrics, Baseline Models & Tomek Links
+# Day 16 — Evaluation Metrics, Baseline Models & Tomek Links
 
 This notebook focuses on understanding how to **evaluate machine learning models properly** and how to use
 **simple baseline models** as benchmarks, along with revisiting **Tomek Links** as a boundary cleaning technique
@@ -584,15 +584,15 @@ To understand **how to judge model performance**, use **baseline benchmarks**, a
 evaluation metrics correctly, especially in the presence of **imbalanced datasets**.
 
 ### Notebook
-- `day_17_evaluation_metrics_and_baselines.ipynb`
+- `day_16_evaluation_metrics_and_baselines.ipynb`
 
 ---
 
 <!-- =============================================== -->
-<!--                      DAY 18                     -->
+<!--                      DAY 17                     -->
 <!-- =============================================== -->
 
-#  Day 18 – Classification Metrics (Part 2)
+#  Day 17 – Classification Metrics (Part 2)
 
 This notebook is part of my **ML Learning Journey**, focusing on a deep understanding of **classification evaluation metrics** and how to choose the **right metric based on real-world problem context**.
 
@@ -682,22 +682,23 @@ This notebook continues my structured, day-wise exploration of Machine Learning 
 ```text
 ML-Learning-Journey/
 │
-├── Day1.ipynb
-├── Day2.ipynb
-├── Day3.ipynb
-├── Day4.ipynb
-├── Day5_DiamondPricePrediction.ipynb
-├── Spam_Ham_Casestudy_day6.ipynb
-├── Day7_KNN.ipynb
-├── ML_Supervised_learning_DT.ipynb   # Day 8 – Decision Tree
-├── DecisionTrees_Classification_Regression.ipynb
-├── Wine_Classification_KNN_DecisionTree.ipynb  # Day 9
-├── Day10_Missing_Values_Feature_Engineering.ipynb
-├── Day11_missing_value_imputation.ipynb
-├── Day12_Handling_Imbalanced_Data_and_Oversampling.ipynb
-├── Day15_Imbalanced_Data_SMOTE.ipynb        # Handling Imbalanced Data
-├── Day16_Imbalanced_Data_ADASYN_Breast_Cancer.ipynb
-├── day_17_evaluation_metrics_and_baselines.ipynb
-├── Day_18_Classification_Metrics_Part_2.ipynb
+├── Day_01_Iris_EDA.ipynb
+├── Day_02_Iris_Metrics_Model_Evaluation.ipynb
+├── Day_03_Iris_Advanced_Evaluation.ipynb
+├── Day_04_Iris_Scaling_Preprocessing.ipynb
+├── Day_05_Diamond_Price_Prediction.ipynb
+├── Day_06_Spam_vs_Ham_Classification.ipynb
+├── Day_07_Spam_Ham_NLP_Case_Study.ipynb
+├── Day_08_KNN_Classification.ipynb
+├── Day_09_Decision_Tree_Classification.ipynb
+├── Day_10_Feature_Engineering_Missing_Values.ipynb
+├── Day_11_Advanced_Imputation_Pipelines.ipynb
+├── Day_12_Imbalanced_Data_Oversampling.ipynb
+├── Day_13_Outlier_Detection_Credit_Fraud.ipynb
+├── Day_14_SMOTE_and_Imbalanced_Data.ipynb
+├── Day_15_ADASYN_Breast_Cancer.ipynb
+├── Day_16_Evaluation_Metrics_Imbalanced.ipynb
+├── Day_17_Classification_Metrics_Part_2.ipynb
 └── README.md
+
 
