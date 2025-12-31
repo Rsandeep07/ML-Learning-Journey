@@ -755,6 +755,97 @@ The objective is to learn how Decision Trees make decisions, how splits are form
 This day emphasizes **core understanding** of Decision Trees.  
 Further practice and reinforcement through assignments are continued in the following days.
 
+---
+
+
+
+<!-- =============================================== -->
+<!--                      DAY 19                     -->
+<!-- =============================================== -->
+
+## Day 19 – Model Evaluation Metrics (Classification & Regression)
+
+### Overview
+This day focuses on a **deep dive into model evaluation metrics**, covering both **classification and regression problems**.
+
+The emphasis is on understanding **how to choose the right metric based on problem context**, data distribution, and cost of misclassification rather than relying only on accuracy.
+
+---
+
+<!-- =============================================== -->
+<!--               CONCEPTS COVERED                 -->
+<!-- =============================================== -->
+
+### Concepts Covered
+
+#### Classification Metrics
+- Precision
+- Recall
+- F1 Score
+- Fβ Score
+- Accuracy vs Balanced Accuracy
+- Cost of Misclassification (FP vs FN)
+
+#### Metric Selection
+- When to prioritize Precision
+- When to prioritize Recall
+- Choosing metrics based on business objectives
+- Baseline (mode-based) model concept
+
+#### Regression Metrics
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² (R-Squared)
+- Explained vs Unexplained variance (TSS, ESS, RSS)
+
+---
+
+<!-- =============================================== -->
+<!--               HANDS-ON FOCUS                   -->
+<!-- =============================================== -->
+
+### Hands-on Focus
+- Interpreted classification metrics using confusion matrix
+- Analyzed metric behavior for balanced vs imbalanced datasets
+- Understood regression performance using error-based metrics
+- Compared trained models against baseline models
+
+---
+
+<!-- =============================================== -->
+<!--               KEY LEARNINGS                    -->
+<!-- =============================================== -->
+
+### Key Learnings
+- Accuracy alone is not reliable for imbalanced datasets
+- Metric choice depends on the **cost of wrong predictions**
+- Fβ score helps prioritize Precision or Recall as needed
+- A useful model must always outperform a baseline
+- Regression metrics quantify prediction errors and explained variance
+
+---
+
+<!-- =============================================== -->
+<!--               TOOLS USED                       -->
+<!-- =============================================== -->
+
+### Tools & Libraries Used
+- Python
+- pandas
+- numpy
+- scikit-learn
+
+---
+
+<!-- =============================================== -->
+<!--               NOTE                             -->
+<!-- =============================================== -->
+
+### Note
+This day builds a **strong evaluation mindset**, which is essential for assessing and improving Machine Learning models in real-world scenarios.
+
+
 
 
 
@@ -788,6 +879,7 @@ ML-Learning-Journey/
 ├── Day_16_Evaluation_Metrics_Imbalanced.ipynb
 ├── Day_17_Classification_Metrics_Part_2.ipynb
 ├── Day_18_Decision_Tree_Classification.ipynb
+├── Day19_Model_Evaluation_Metrics.ipynb
 └── README.md
 
 
