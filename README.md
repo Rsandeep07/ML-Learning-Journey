@@ -668,6 +668,94 @@ Metric selection depends on the **cost of misclassification**:
 ##  Part of ML Learning Journey
 This notebook continues my structured, day-wise exploration of Machine Learning concepts with both **theory and intuition**.
 
+---
+
+
+
+<!-- =============================================== -->
+<!--                       DAY 18                    -->
+<!-- =============================================== -->
+
+## Day 18 – Decision Tree Classification
+
+### Overview
+This day focuses on understanding **Decision Tree algorithms**, combining **theoretical concepts** with **hands-on implementation** using a classification dataset.
+
+The objective is to learn how Decision Trees make decisions, how splits are formed, and how model complexity affects performance.
+
+---
+
+<!-- =============================================== -->
+<!--               CONCEPTS COVERED                 -->
+<!-- =============================================== -->
+
+### Concepts Covered
+- What is a Decision Tree and how it works
+- Split criteria in Decision Trees
+- Gini Impurity vs Entropy
+- Overfitting in Decision Trees
+- Role of `max_depth` in controlling model complexity
+
+---
+
+<!-- =============================================== -->
+<!--               HANDS-ON PRACTICE                -->
+<!-- =============================================== -->
+
+### Hands-on Implementation
+- Loaded and explored the dataset
+- Identified target and feature columns
+- Checked missing values and data types
+- Performed train–test split (80–20)
+- Built a Decision Tree Classifier using Gini impurity
+- Trained the model and made predictions on test data
+
+---
+
+<!-- =============================================== -->
+<!--               MODEL EVALUATION                 -->
+<!-- =============================================== -->
+
+### Model Evaluation
+- Calculated accuracy score
+- Analyzed predictions
+- Observed model behavior related to overfitting and underfitting
+
+---
+
+<!-- =============================================== -->
+<!--               KEY LEARNINGS                    -->
+<!-- =============================================== -->
+
+### Key Learnings
+- Decision Trees are intuitive but prone to overfitting
+- Controlling tree depth is crucial for generalization
+- Choice of split criterion impacts decision boundaries
+- Simple models can sometimes outperform complex ones
+
+---
+
+<!-- =============================================== -->
+<!--               TOOLS USED                       -->
+<!-- =============================================== -->
+
+### Tools & Libraries Used
+- Python
+- pandas
+- numpy
+- scikit-learn
+
+---
+
+<!-- =============================================== -->
+<!--               NOTE                             -->
+<!-- =============================================== -->
+
+### Note
+This day emphasizes **core understanding** of Decision Trees.  
+Further practice and reinforcement through assignments are continued in the following days.
+
+
 
 
 
@@ -699,6 +787,7 @@ ML-Learning-Journey/
 ├── Day_15_ADASYN_Breast_Cancer.ipynb
 ├── Day_16_Evaluation_Metrics_Imbalanced.ipynb
 ├── Day_17_Classification_Metrics_Part_2.ipynb
+├── Day_18_Decision_Tree_Classification.ipynb
 └── README.md
 
 
