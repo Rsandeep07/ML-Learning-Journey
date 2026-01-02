@@ -848,6 +848,69 @@ This day builds a **strong evaluation mindset**, which is essential for assessin
 
 
 
+---
+
+<!-- =============================================== -->
+<!--                      DAY 20                     -->
+<!-- =============================================== -->
+
+# Day 20— R², Adjusted R² & Model Selection
+
+This notebook extends my Machine Learning learning journey by focusing on **regression model evaluation**, **feature impact**, and **generalization concepts**.
+
+The session bridges the gap between **error-based metrics** and **variance-based metrics**, helping understand **why model selection matters beyond accuracy**.
+
+---
+
+##  Topics Covered
+
+### Regression Evaluation Metrics
+- MAE (Mean Absolute Error)
+- MSE (Mean Squared Error)
+- RMSE (Root Mean Squared Error)
+
+### Variance-Based Metrics
+- R² (Coefficient of Determination)
+- Limitations of R²
+- Adjusted R² and feature penalization
+
+### Model Selection Concepts
+- Mean model as baseline
+- Error decomposition (TSS, RSS)
+- Overfitting due to unnecessary features
+- Why Adjusted R² is preferred for comparison
+
+### Generalization & Learning
+- Memorization vs Generalization
+- Hyperparameter tuning intuition
+- Cross-validation overview
+- Learning curves (high-level understanding)
+
+---
+
+##  Key Learnings
+
+- R² explains **how much variance** a model captures
+- R² alone is **not reliable** for feature selection
+- Adjusted R² penalizes irrelevant features
+- More features do not guarantee a better model
+- Generalization is the ultimate goal of Machine Learning
+
+---
+
+##  Tools & Libraries
+
+- Python
+- NumPy
+- pandas
+- scikit-learn
+- matplotlib
+
+---
+
+ *This notebook is part of my continuous Machine Learning learning journey, focusing on building strong conceptual foundations alongside practical understanding.*
+
+
 
 
 
@@ -880,6 +943,7 @@ ML-Learning-Journey/
 ├── Day_17_Classification_Metrics_Part_2.ipynb
 ├── Day_18_Decision_Tree_Classification.ipynb
 ├── Day19_Model_Evaluation_Metrics.ipynb
+├── Day_20_R2_Adjusted_R2_Model_Selection.ipynb
 └── README.md
 
 
