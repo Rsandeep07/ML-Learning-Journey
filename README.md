@@ -910,10 +910,134 @@ The session bridges the gap between **error-based metrics** and **variance-based
 
  *This notebook is part of my continuous Machine Learning learning journey, focusing on building strong conceptual foundations alongside practical understanding.*
 
+ ---
 
+ # ML-Learning-Journey
+Daily hands-on notebooks exploring data preprocessing, EDA, categorical encoding, model building, and performance analysis.
 
+---
 
+<!-- =============================================== -->
+<!--                      DAY 21                     -->
+<!-- =============================================== -->
 
+## Day 21 – Bias–Variance Tradeoff & Generalization
+
+This notebook focuses on understanding one of the most fundamental concepts in Machine Learning —  
+**Bias–Variance Tradeoff and model generalization**.
+
+The session is theory-focused and explains *why models fail or succeed on unseen data*, going beyond accuracy and training performance.
+
+---
+
+<!-- =============================================== -->
+<!--             CONCEPTS COVERED (DAY 21)           -->
+<!-- =============================================== -->
+
+## Concepts Covered
+
+### Model Evaluation in Regression
+- Loss functions and evaluation metrics
+- MAE, MSE, RMSE, MAPE
+- Interpretation of prediction error
+- Comparing predicted values (ŷ) with actual values (y)
+
+### R² and Adjusted R²
+- Meaning of explained vs unexplained variance
+- R² as a goodness-of-fit measure
+- Limitations of R²
+- Why R² always increases with more features
+- Adjusted R² and feature penalization
+- When to prefer Adjusted R² over R²
+
+### Model Building Pipeline
+- Data → ML Algorithm → Model → Predictions
+- Training performance vs testing performance
+- Why high training accuracy can be misleading
+
+---
+
+<!-- =============================================== -->
+<!--           GENERALIZATION & OVERFITTING          -->
+<!-- =============================================== -->
+
+## Generalization Concepts
+- What is model generalization
+- Difference between memorization and learning
+- Population vs sample data
+- Population model vs sample model
+- Importance of representative samples
+- Role of randomness and independence in sampling
+
+### Overfitting and Underfitting
+- Underfitting as a result of high bias
+- Overfitting as a result of high variance
+- Train vs test error patterns
+- Identifying overfitted and underfitted models
+
+---
+
+<!-- =============================================== -->
+<!--            BIAS–VARIANCE TRADEOFF               -->
+<!-- =============================================== -->
+
+## Bias–Variance Tradeoff
+- Bias:
+  - Error due to incorrect assumptions
+  - Simple models and underfitting
+- Variance:
+  - Sensitivity of model to data changes
+  - Complex models and overfitting
+- Tradeoff between bias and variance
+- Why both cannot be minimized simultaneously
+
+### Role of Model Complexity
+- Effect of hyperparameters on bias and variance
+- k in k-Nearest Neighbors
+- max_depth in Decision Trees
+- Simple vs complex model behavior
+
+---
+
+<!-- =============================================== -->
+<!--          CROSS-VALIDATION & MODEL SELECTION     -->
+<!-- =============================================== -->
+
+## Cross-Validation & Model Selection
+- Need for cross-validation
+- Evaluating generalization performance
+- Selecting models closer to population behavior
+- Avoiding memorization during model selection
+
+---
+
+<!-- =============================================== -->
+<!--                 KEY TAKEAWAYS                  -->
+<!-- =============================================== -->
+
+## Key Takeaways
+- High accuracy alone does not guarantee a good model
+- Generalization is the primary goal of Machine Learning
+- Bias–Variance Tradeoff is central to model selection
+- Model complexity must be carefully controlled
+- Cross-validation helps estimate real-world performance
+
+---
+
+<!-- =============================================== -->
+<!--               DAY 21 SUMMARY                   -->
+<!-- =============================================== -->
+
+## Day 21 Summary
+Day 21 builds strong theoretical foundations required for:
+- Hyperparameter tuning
+- Model evaluation
+- Understanding overfitting and underfitting
+- Designing robust and generalizable ML models
+
+This day connects theory directly to practical modeling decisions used in real-world Machine Learning workflows.
+
+---
 
 
 <!-- =============================================== -->
@@ -944,6 +1068,7 @@ ML-Learning-Journey/
 ├── Day_18_Decision_Tree_Classification.ipynb
 ├── Day19_Model_Evaluation_Metrics.ipynb
 ├── Day_20_R2_Adjusted_R2_Model_Selection.ipynb
+├── Day_21_Bias_Variance_Tradeoff_and_Generalization.ipynb
 └── README.md
 
 
