@@ -1040,6 +1040,121 @@ This day connects theory directly to practical modeling decisions used in real-w
 ---
 
 
+# ML-Learning-Journey
+Daily hands-on notebooks exploring data preprocessing, EDA, categorical encoding, model building, and performance analysis.
+
+---
+
+<!-- =============================================== -->
+<!--                     DAY 22                      -->
+<!-- =============================================== -->
+
+## Day 22 – Cross Validation & Hyperparameter Tuning
+
+This notebook documents **Day 22** of my Machine Learning learning journey.  
+The focus of this day is on understanding how to build **generalizable models** by addressing **overfitting**, **underfitting**, and **data leakage** using proper validation strategies.
+
+The notebook combines **theoretical intuition** with **hands-on implementation** to understand why cross validation is a critical step in real-world ML workflows.
+
+---
+
+<!-- =============================================== -->
+<!--                 CONCEPTS COVERED                -->
+<!-- =============================================== -->
+
+## Concepts Covered
+
+### Generalization in Machine Learning
+- Meaning of generalization
+- Difference between training performance and real-world performance
+- Why generalization is the true goal of ML models
+
+### Bias–Variance Tradeoff
+- Bias and variance explained intuitively
+- Relationship between model complexity and error
+- Underfitting vs overfitting scenarios
+- Generalization error = Bias² + Variance + Noise
+
+### Model Evaluation Challenges
+- Limitations of train–test split
+- Why repeated test evaluation is dangerous
+- Understanding data leakage and its consequences
+
+---
+
+<!-- =============================================== -->
+<!--            VALIDATION & CROSS VALIDATION        -->
+<!-- =============================================== -->
+
+## Validation & Cross Validation Techniques
+
+### Validation Set (Hold-Out Method)
+- Train–Validation–Test split
+- Role of validation data in hyperparameter tuning
+- Keeping test data untouched for final evaluation
+
+### Cross Validation
+- Motivation behind cross validation
+- K-Fold Cross Validation workflow
+- Why cross validation gives more reliable performance estimates
+
+### Types of Cross Validation
+- K-Fold Cross Validation
+- Repeated K-Fold Cross Validation
+- Stratified K-Fold Cross Validation (for classification)
+- Leave-One-Out Cross Validation (LOOCV)
+- Leave-P-Out Cross Validation (LPOCV)
+
+---
+
+<!-- =============================================== -->
+<!--           HYPERPARAMETER TUNING                 -->
+<!-- =============================================== -->
+
+## Hyperparameter Tuning
+
+- Role of hyperparameters in controlling model complexity
+- Preventing overfitting during model selection
+- Using cross validation for hyperparameter optimization
+- Automated tuning using GridSearchCV
+
+Models explored include:
+- Decision Tree Classifier
+- General cross-validation-based model selection workflow
+
+---
+
+<!-- =============================================== -->
+<!--                 KEY LEARNINGS                   -->
+<!-- =============================================== -->
+
+## Key Learnings
+
+- High training accuracy does not guarantee good generalization
+- Bias–Variance tradeoff governs model behavior
+- Test data should never be used during model tuning
+- Cross validation provides stable and reliable evaluation
+- Proper hyperparameter tuning improves real-world performance
+
+---
+
+<!-- =============================================== -->
+<!--                 NEXT STEPS                      -->
+<!-- =============================================== -->
+
+## Next Steps
+
+- Apply cross validation to additional models (KNN, Random Forest)
+- Explore RandomizedSearchCV for efficient tuning
+- Study nested cross validation for advanced workflows
+
+---
+
+ **Notebook Name:**  
+`Day22_Cross_Validation_and_Hyperparameter_Tuning.ipynb`
+
+
+
 <!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
 <!-- =============================================== -->
@@ -1069,6 +1184,7 @@ ML-Learning-Journey/
 ├── Day19_Model_Evaluation_Metrics.ipynb
 ├── Day_20_R2_Adjusted_R2_Model_Selection.ipynb
 ├── Day_21_Bias_Variance_Tradeoff_and_Generalization.ipynb
+├── Day22_Cross_Validation_and_Hyperparameter_Tuning.ipynb
 └── README.md
 
 
