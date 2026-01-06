@@ -1153,6 +1153,100 @@ Models explored include:
  **Notebook Name:**  
 `Day22_Cross_Validation_and_Hyperparameter_Tuning.ipynb`
 
+---
+
+<!-- =============================================== -->
+<!--                     DAY 23                      -->
+<!-- =============================================== -->
+
+
+# Day 23 – Cross Validation & Hyperparameter Tuning
+
+This notebook is part of my **Machine Learning Learning Journey**, focusing on understanding
+model generalization, bias–variance tradeoff, and systematic techniques to evaluate and tune
+machine learning models.
+
+---
+
+<!-- =============================================== -->
+<!--                TOPICS COVERED                   -->
+<!-- =============================================== -->
+
+##  Topics Covered
+
+- Prediction error in Machine Learning  
+- Bias and its impact on underfitting  
+- Variance and its role in overfitting  
+- Bias–Variance tradeoff  
+- Detecting underfitting and overfitting  
+- Problems with using test data for tuning  
+- Training, validation, and test data split  
+- Cross Validation concept and workflow  
+- Types of Cross Validation:
+  - K-Fold
+  - Repeated K-Fold
+  - Stratified K-Fold
+  - Leave-One-Out (LOOCV)
+  - Leave-P-Out (LPOCV)
+- Model generalization detection  
+- Regularization techniques (L1, L2, Elastic Net)  
+- Ensemble methods (Bagging & Boosting)  
+- Within-subject vs Between-subject data design  
+
+---
+
+<!-- =============================================== -->
+<!--               LEARNING OUTCOMES                 -->
+<!-- =============================================== -->
+
+##  Learning Outcomes
+
+After completing this notebook, I can:
+
+- Explain bias and variance intuitively  
+- Identify underfitting and overfitting scenarios  
+- Choose appropriate validation strategies  
+- Apply cross validation for model evaluation  
+- Avoid data leakage while tuning models  
+- Improve model generalization using regularization and ensembles  
+
+---
+
+<!-- =============================================== -->
+<!--              TOOLS & LIBRARIES                  -->
+<!-- =============================================== -->
+
+##  Tools & Libraries
+
+- Python  
+- NumPy  
+- Pandas  
+- scikit-learn  
+
+---
+
+<!-- =============================================== -->
+<!--              REPO CONTEXT                       -->
+<!-- =============================================== -->
+
+##  Repository Context
+
+This notebook is part of my **ML Learning Journey Repository**, where I document
+daily hands-on practice covering:
+
+- Data preprocessing & EDA  
+- Feature engineering  
+- Supervised learning algorithms  
+- Model evaluation techniques  
+- Performance optimization  
+- End-to-end ML workflows  
+
+---
+
+ *Day 23 corresponds to the sequence in my personal ML learning roadmap.*
+
+
+
 
 
 <!-- =============================================== -->
@@ -1184,7 +1278,8 @@ ML-Learning-Journey/
 ├── Day19_Model_Evaluation_Metrics.ipynb
 ├── Day_20_R2_Adjusted_R2_Model_Selection.ipynb
 ├── Day_21_Bias_Variance_Tradeoff_and_Generalization.ipynb
-├── Day22_Cross_Validation_and_Hyperparameter_Tuning.ipynb
+├── Day_22_Cross_Validation_and_Hyperparameter_Tuning.ipynb
+├── Day_23_Cross_Validation_and_Hyperparameter_Tuning.ipynb
 └── README.md
 
 
