@@ -1245,6 +1245,130 @@ daily hands-on practice covering:
 
  *Day 23 corresponds to the sequence in my personal ML learning roadmap.*
 
+---
+
+<!-- =============================================== -->
+<!--                     DAY 25                      -->
+<!-- =============================================== -->
+
+# Day 25 – Hyperparameter Tuning & Linear Regression (Foundations)
+
+This notebook is part of my **Machine Learning Learning Journey**, focusing on
+**model selection**, **hyperparameter tuning strategies**, and building a strong
+**conceptual foundation for Linear and Logistic Regression**.
+
+The emphasis of this day is on understanding **why tuning is required**, how
+different tuning strategies behave computationally, and **why simple linear
+models are still critical in real-world ML workflows**.
+
+---
+
+<!-- =============================================== -->
+<!--                TOPICS COVERED                   -->
+<!-- =============================================== -->
+
+## Topics Covered
+
+### Hyperparameter Tuning (HPT)
+- Why hyperparameter tuning is required
+- Model generalization vs memorization
+- Effect of poor hyperparameter configuration
+- Hyperparameter tuning strategies:
+  - Manual Search
+  - Grid Search
+  - Random Search
+  - Sequential Search (Bayesian Optimization)
+- Comparison of Grid vs Random Search
+- Parallelization and computational cost
+- When Grid / Random tuning becomes inefficient
+- Introduction to Bayesian Optimization
+- Surrogate models and Expected Improvement (EI)
+- Optuna overview:
+  - Study
+  - Objective function
+  - Trials
+  - Best parameters and best score
+- Tree-structured Parzen Estimator (TPE)
+
+---
+
+### Bias–Variance & Model Selection Context
+- Bias–Variance tradeoff revisited
+- Role of hyperparameters in controlling model complexity
+- Overfitting vs underfitting from a tuning perspective
+- Why tuning must be done using validation / cross-validation data
+- Avoiding test data leakage during model selection
+
+---
+
+### Linear Regression – Conceptual Foundations
+- Why Linear Regression is still important
+- Linear Regression as a strong baseline model
+- Interpretability vs complex models
+- Feature importance and coefficient interpretation
+- Comparison with Decision Trees and KNN
+- Assumptions of Linear Regression:
+  - Linearity
+  - Independence
+  - Homoscedasticity
+  - No multicollinearity
+  - Normality of errors
+
+---
+
+### Geometric Interpretation
+- One feature → straight line
+- Two features → plane
+- Multiple features → hyperplane
+- Linear Regression as best-fit hyperplane
+
+---
+
+### Learning the Parameters
+- Ordinary Least Squares (OLS)
+- Gradient Descent (iterative optimization)
+- Objective: minimizing sum of squared errors
+- Analytical vs iterative solutions
+
+---
+
+### Logistic Regression (High-Level Introduction)
+- Logistic Regression as a GLM
+- Difference between Linear & Logistic Regression
+- Continuous vs probabilistic output
+- Regression vs classification use cases
+
+---
+
+<!-- =============================================== -->
+<!--               KEY LEARNINGS                     -->
+<!-- =============================================== -->
+
+## Key Learnings
+
+- Hyperparameter tuning is essential for model generalization
+- Grid Search is exhaustive but computationally expensive
+- Random Search is often more efficient in large search spaces
+- Bayesian Optimization reduces the number of required trials
+- Linear Regression remains highly valuable due to interpretability
+- Simple models should always be tried before complex ones
+- Model selection is about **generalization**, not training accuracy
+
+---
+
+<!-- =============================================== -->
+<!--               NOTEBOOK                          -->
+<!-- =============================================== -->
+
+## Notebook
+- `Day_25_Hyperparameter_Tuning_and_Linear_Regression.ipynb`
+
+---
+
+*Day 25 strengthens the foundation required for advanced model optimization,
+regularization, and future deep learning workflows.*
+
+---
 
 
 
