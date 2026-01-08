@@ -1404,6 +1404,7 @@ ML-Learning-Journey/
 ├── Day_21_Bias_Variance_Tradeoff_and_Generalization.ipynb
 ├── Day_22_Cross_Validation_and_Hyperparameter_Tuning.ipynb
 ├── Day_23_Cross_Validation_and_Hyperparameter_Tuning.ipynb
+├── Day_25_Hyperparameter_Tuning_and_Linear_Regression.ipynb
 └── README.md
 
 
