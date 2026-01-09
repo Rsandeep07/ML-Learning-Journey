@@ -1247,6 +1247,172 @@ daily hands-on practice covering:
 
 ---
 
+
+<!-- =============================================== -->
+<!--                     DAY 24                      -->
+<!-- =============================================== -->
+
+## Day 24 — Advanced Hyperparameter Tuning (Bayesian Optimization & Optuna)
+
+This notebook documents **Day 24** of my **Machine Learning Learning Journey**.
+The focus of this day is on **advanced hyperparameter tuning techniques**, extending
+the classical cross-validation and Grid/Random Search approaches learned in
+previous days.
+
+This day bridges the gap between **traditional hyperparameter tuning** and
+**modern, efficient optimization strategies** used in real-world Machine Learning
+systems.
+
+---
+
+## Objective
+
+To understand **how to tune machine learning models efficiently** when:
+
+- Hyperparameter search spaces are large
+- Model training is computationally expensive
+- Exhaustive Grid Search becomes impractical
+
+The objective is to learn **Sequential / Bayesian Optimization** concepts and
+apply them using the **Optuna** framework.
+
+---
+
+## Topics Covered
+
+### Generalization & Model Behavior (Recap)
+- Generalization vs memorization
+- Overfitting and underfitting
+- Bias–Variance tradeoff
+- Effect of model complexity on learning
+
+---
+
+### Cross Validation (Context)
+- Why single train–test split is insufficient
+- K-Fold Cross Validation workflow
+- Mean validation score vs variance
+- Using cross validation for reliable model selection
+
+---
+
+### Hyperparameters in Machine Learning
+- Parameters vs hyperparameters
+- Role of hyperparameters in controlling model capacity
+- Examples from KNN and Decision Tree models
+
+---
+
+### Hyperparameter Tuning
+- Why hyperparameter tuning is required
+- Relationship between tuning and generalization
+- Avoiding test data leakage during model selection
+
+---
+
+### Hyperparameter Tuning Strategies
+
+#### Manual Search
+- Manually testing hyperparameter combinations
+- Simple but not scalable
+
+#### Grid Search
+- Exhaustive search over predefined hyperparameter grids
+- High computational cost for large search spaces
+
+#### Random Search
+- Random sampling from hyperparameter ranges
+- More efficient than Grid Search
+- Still inefficient for very large models
+
+---
+
+### Limitations of Grid & Random Search
+- Large number of wasted trials
+- Poor scalability for complex models
+- Motivation for intelligent optimization techniques
+
+---
+
+### Sequential / Bayesian Optimization
+- Learning from previously evaluated configurations
+- Selecting new hyperparameters based on past performance
+- Reducing number of required evaluations
+- Suitable for complex and expensive ML models
+
+---
+
+### Surrogate Models
+- Approximate hyperparameter–performance relationship
+- Faster evaluation than training full models
+- Guide the optimization process
+
+---
+
+### Tree-Structured Parzen Estimator (TPE)
+- Bayesian Optimization algorithm
+- Separates good and bad hyperparameter regions
+- Maximizes expected improvement
+- Default sampler used by Optuna
+
+---
+
+### Optuna Framework
+- Modern hyperparameter optimization library
+- Implements Bayesian Optimization using TPE
+- Fast, flexible, and scalable
+- Widely adopted in industry and research
+
+---
+
+### Optuna Workflow
+1. Define an **objective function**
+2. Create an **optimization study**
+3. Run **multiple trials**
+4. Retrieve **best hyperparameters and score**
+
+---
+
+## Models Used
+- **K-Nearest Neighbors (KNN)**
+  - `n_neighbors`
+  - `weights`
+
+- **Decision Tree Classifier**
+  - `max_depth`
+  - `min_samples_split`
+  - `min_samples_leaf`
+
+---
+
+## Dataset Used
+- **Breast Cancer Wisconsin Dataset**
+- Binary classification problem
+- Used to compare tuning effectiveness across models
+
+---
+
+## Key Learnings
+- Grid and Random Search do not scale well
+- Bayesian Optimization is more efficient and intelligent
+- Hyperparameter tuning directly impacts generalization
+- Optuna simplifies advanced tuning workflows
+- Sequential optimization reduces computational cost
+- Efficient model selection is essential in real-world ML systems
+
+---
+
+## Notebook
+- `Day_24_Advanced_Hyperparameter_Tuning_Optuna.ipynb`
+
+
+---
+
+*Day 24 marks the transition from classical model tuning to modern,
+efficient optimization strategies used in industry-scale Machine Learning.*
+
+---
+
 <!-- =============================================== -->
 <!--                     DAY 25                      -->
 <!-- =============================================== -->
