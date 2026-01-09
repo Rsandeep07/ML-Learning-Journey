@@ -1399,7 +1399,7 @@ ML-Learning-Journey/
 ├── Day_16_Evaluation_Metrics_Imbalanced.ipynb
 ├── Day_17_Classification_Metrics_Part_2.ipynb
 ├── Day_18_Decision_Tree_Classification.ipynb
-├── Day19_Model_Evaluation_Metrics.ipynb
+├── Day_19_Model_Evaluation_Metrics.ipynb
 ├── Day_20_R2_Adjusted_R2_Model_Selection.ipynb
 ├── Day_21_Bias_Variance_Tradeoff_and_Generalization.ipynb
 ├── Day_22_Cross_Validation_and_Hyperparameter_Tuning.ipynb
