@@ -1536,6 +1536,169 @@ regularization, and future deep learning workflows.*
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 26                      -->
+<!-- =============================================== -->
+
+## Day 26 — Linear Regression: Ordinary Least Squares (OLS)
+
+This notebook documents **Day 26** of my **Machine Learning Learning Journey** and is a
+**direct continuation of Day 25**, where the conceptual foundations of Linear and Logistic
+Regression were introduced.
+
+The focus of this day is to understand **how Linear Regression actually learns**, covering
+its **mathematical formulation**, **geometric interpretation**, **loss function**, and
+the **Ordinary Least Squares (OLS)** optimization method.
+
+---
+
+## Objective
+
+To build a **first-principles understanding** of Linear Regression by answering:
+
+- How is a linear model mathematically defined?
+- What do coefficients and intercept represent geometrically?
+- How is prediction error measured?
+- How does OLS estimate the best parameters?
+- Why analytical solutions are limited in real-world scenarios?
+
+This day emphasizes **intuition, math, and optimization**, not just library usage.
+
+---
+
+## Topics Covered
+
+### Parametric Models
+- What is a parametric model
+- Fixed number of parameters
+- Linear and Logistic Regression as parametric models
+
+---
+
+### Linear Regression Model Formulation
+- Linear equation with multiple features
+- Weights (coefficients) and intercept
+- Continuous output and regression context
+
+---
+
+### Linear vs Logistic Regression (Conceptual)
+- Regression vs classification
+- Continuous vs probabilistic output
+- Squared loss vs log loss
+- OLS vs Maximum Likelihood Estimation
+
+---
+
+### Ordinary Least Squares (OLS)
+- Definition and motivation
+- Residuals and prediction error
+- Squared error loss
+- Objective function minimization
+
+---
+
+### Correlation & Feature Influence
+- Correlation direction and strength
+- Relationship between features and target
+- Limitations of correlation (no causation)
+
+---
+
+### Geometric Interpretation
+- Single feature → straight line
+- Two features → plane
+- Multiple features → hyperplane
+- Effect of coefficients on slope and orientation
+- Role of intercept in shifting predictions
+
+---
+
+### Vector & Matrix Representation
+- Feature vector and weight vector
+- Dot product formulation
+- Dataset-level matrix representation
+- Benefits of vectorization
+
+---
+
+### Loss Function & Optimization Objective
+- Squared error loss
+- Mean Squared Error (MSE)
+- Convex optimization problem
+- Global minimum guarantee
+
+---
+
+### Analytical Solution (Normal Equation)
+- Closed-form solution for OLS
+- Conditions for invertibility
+- Role of matrix inversion
+
+---
+
+### Practical Limitations
+- Computational cost of matrix inversion
+- Multicollinearity issues
+- Overdetermined systems
+- Why exact solutions are rare in real data
+
+---
+
+### Pseudo-Inverse & Numerical Stability
+- Moore–Penrose pseudo-inverse
+- Use of SVD
+- Improved numerical robustness
+
+---
+
+### Gradient Descent Perspective
+- Iterative optimization approach
+- Scalability to large datasets
+- Relationship to analytical OLS solution
+
+---
+
+### Practical ML Implementations
+- `LinearRegression` (closed-form / pseudo-inverse)
+- `SGDRegressor` (gradient descent-based learning)
+- Same objective, different optimization strategies
+
+---
+
+## Key Learnings
+
+- Linear Regression is a simple yet powerful baseline model
+- OLS estimates parameters by minimizing squared error
+- Geometry provides strong intuition for model behavior
+- Vectorization enables efficient computation
+- Analytical solutions are limited for large-scale problems
+- Optimization forms the foundation of modern ML algorithms
+
+---
+
+## Notebook
+- `Day_26_Linear_Regression_Ordinary_Least_Squares.ipynb`
+
+---
+
+## Continuity in ML Learning Journey
+
+This day builds on:
+- **Day 25** — Linear & Logistic Regression (Conceptual Foundations)
+
+And prepares the foundation for:
+- Ridge and Lasso Regression (Regularization)
+- Logistic Regression mathematics
+- Gradient Descent optimization
+- Advanced model tuning and optimization
+
+---
+
+*Day 26 strengthens the mathematical and optimization foundations required for
+regularized linear models and future advanced Machine Learning workflows.*
+
+
 
 
 
@@ -1571,6 +1734,7 @@ ML-Learning-Journey/
 ├── Day_22_Cross_Validation_and_Hyperparameter_Tuning.ipynb
 ├── Day_23_Cross_Validation_and_Hyperparameter_Tuning.ipynb
 ├── Day_25_Hyperparameter_Tuning_and_Linear_Regression.ipynb
+├── Day_26_Linear_Regression_Ordinary_Least_Squares.ipynb
 └── README.md
 
 
