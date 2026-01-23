@@ -1698,6 +1698,44 @@ And prepares the foundation for:
 *Day 26 strengthens the mathematical and optimization foundations required for
 regularized linear models and future advanced Machine Learning workflows.*
 
+---
+
+<!-- =============================================== -->
+<!--                     DAY 27                      -->
+<!-- =============================================== -->
+
+## Day 27 — Decision Tree (CART): Introduction
+
+This notebook is part of my **Machine Learning Learning Journey** and introduces
+the **Decision Tree algorithm using CART**, focusing on **core concepts and intuition**.
+
+---
+
+## Topics Covered
+- Recap of K-Nearest Neighbors (distance-based learning)
+- Parameters vs Hyperparameters
+- CART (Classification and Regression Trees)
+- Decision Tree vs KNN
+- Rule-based learning using if–then–else logic
+- Decision Tree structure (root, nodes, leaves)
+- Binary splits in CART
+- Feature-based decision making
+- Feature space partitioning
+- Model interpretability and backtracking
+- Data preprocessing considerations
+
+---
+
+## Notebook
+- `Day_27_Decision_Tree_CART_Introduction.ipynb`
+
+---
+
+*This day introduces tree-based learning and sets the foundation for split criteria,
+model complexity control, and ensemble methods covered in upcoming days.*
+
+---
+
 
 
 
