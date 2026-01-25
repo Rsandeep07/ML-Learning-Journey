@@ -1704,35 +1704,41 @@ regularized linear models and future advanced Machine Learning workflows.*
 <!--                     DAY 27                      -->
 <!-- =============================================== -->
 
-## Day 27 — Decision Tree (CART): Introduction
+## Day 27 — Linear Regression (Simple & Multiple) + OLS Recap
 
-This notebook is part of my **Machine Learning Learning Journey** and introduces
-the **Decision Tree algorithm using CART**, focusing on **core concepts and intuition**.
+This notebook is part of my **Machine Learning Learning Journey** and focuses on
+revising **Linear Regression fundamentals** with an emphasis on **Ordinary Least Squares (OLS)**.
+
+The session reinforces the **mathematical, geometric, and optimization perspective**
+of Linear Regression, bridging intuition with practical ML implementation.
 
 ---
 
 ## Topics Covered
-- Recap of K-Nearest Neighbors (distance-based learning)
-- Parameters vs Hyperparameters
-- CART (Classification and Regression Trees)
-- Decision Tree vs KNN
-- Rule-based learning using if–then–else logic
-- Decision Tree structure (root, nodes, leaves)
-- Binary splits in CART
-- Feature-based decision making
-- Feature space partitioning
-- Model interpretability and backtracking
-- Data preprocessing considerations
+- Parametric vs Non-Parametric models  
+- Simple Linear Regression  
+- Multiple Linear Regression  
+- Linear model formulation and assumptions  
+- Geometric interpretation (line, plane, hyperplane)  
+- Interpretation of coefficients and intercept  
+- Vector and matrix representation  
+- Ordinary Least Squares (OLS) objective  
+- Squared error and MSE loss  
+- Normal equation and its limitations  
+- Pseudo-inverse and numerical stability  
+- Gradient Descent perspective  
+- Library implementations (`LinearRegression`, `SGDRegressor`)
 
 ---
 
 ## Notebook
-- `Day_27_Decision_Tree_CART_Introduction.ipynb`
+- `Day_27_Linear_Regression_OLS_Recap.ipynb`
 
 ---
 
-*This day introduces tree-based learning and sets the foundation for split criteria,
-model complexity control, and ensemble methods covered in upcoming days.*
+*Day 27 consolidates Linear Regression foundations and OLS optimization concepts,
+preparing for regularization techniques and advanced linear models.*
+
 
 ---
 
@@ -1773,6 +1779,7 @@ ML-Learning-Journey/
 ├── Day_23_Cross_Validation_and_Hyperparameter_Tuning.ipynb
 ├── Day_25_Hyperparameter_Tuning_and_Linear_Regression.ipynb
 ├── Day_26_Linear_Regression_Ordinary_Least_Squares.ipynb
+├── Day_27_Linear_Regression_OLS_Recap.ipynb
 └── README.md
 
 
