@@ -1742,6 +1742,46 @@ preparing for regularization techniques and advanced linear models.*
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 28                      -->
+<!-- =============================================== -->
+
+## Day 28 — Linear Regression: Assumptions, Feature Selection & Regularization
+
+This notebook is part of my **Machine Learning Learning Journey** and focuses on
+validating **Linear Regression assumptions**, identifying **multicollinearity**,
+performing **feature selection**, and applying **regularization techniques** to
+improve model generalization.
+
+---
+
+## Topics Covered
+- Linear Regression assumptions and diagnostics  
+- Residual analysis and error distribution checks  
+- Data transformation techniques  
+- Multicollinearity and its impact on models  
+- Variance Inflation Factor (VIF)  
+- Feature selection techniques:
+  - Recursive Feature Elimination (RFE)  
+- Overfitting in linear models  
+- Regularization concepts  
+- L1 Regularization (Lasso)  
+- L2 Regularization (Ridge)  
+- Elastic Net Regularization  
+
+---
+
+## Notebook
+- `Day_28_LR_Assumptions_Multicollinearity_VIF_RFE_Regularization.ipynb`
+
+---
+
+*Day 28 strengthens Linear Regression by validating assumptions, selecting relevant
+features, and controlling overfitting using regularization techniques.*
+
+
+--- 
+
 
 
 
@@ -1780,6 +1820,7 @@ ML-Learning-Journey/
 ├── Day_25_Hyperparameter_Tuning_and_Linear_Regression.ipynb
 ├── Day_26_Linear_Regression_Ordinary_Least_Squares.ipynb
 ├── Day_27_Linear_Regression_OLS_Recap.ipynb
+├── Day_28_LR_Assumptions_Multicollinearity_VIF_RFE_Regularization.ipynb
 └── README.md
 
 
