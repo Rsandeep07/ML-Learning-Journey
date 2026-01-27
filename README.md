@@ -1782,6 +1782,48 @@ features, and controlling overfitting using regularization techniques.*
 
 --- 
 
+<!-- =============================================== -->
+<!--                     DAY 29                      -->
+<!-- =============================================== -->
+
+## Day 29 — Linear Regression Case Study, Diagnostics & Regularization
+
+This notebook is part of my **Machine Learning Learning Journey** and focuses on a
+practical **Linear Regression case study**, emphasizing **model diagnostics**,
+**assumption validation**, **feature selection**, and **regularization techniques**.
+
+The session bridges theoretical concepts with **real-world modeling challenges**
+and introduces the transition toward **classification models**.
+
+---
+
+## Topics Covered
+- Linear Regression recap (simple & multiple)  
+- OLS formulation and optimization  
+- Residual analysis and assumption checks  
+- Error distribution and Q–Q plots  
+- Data transformation techniques  
+- Multicollinearity and Variance Inflation Factor (VIF)  
+- Feature selection using RFE  
+- Overfitting and model complexity  
+- Regularization:
+  - Ridge (L2)  
+  - Lasso (L1)  
+  - Elastic Net  
+- Conceptual introduction to Logistic Regression  
+
+---
+
+## Notebook
+- `Day_29_LR_CaseStudy_Diagnostics_Regularization.ipynb`
+
+---
+
+*Day 29 focuses on diagnosing Linear Regression models, fixing real-world data issues,
+and preparing the foundation for classification algorithms.*
+
+---
+
 
 
 
@@ -1821,6 +1863,7 @@ ML-Learning-Journey/
 ├── Day_26_Linear_Regression_Ordinary_Least_Squares.ipynb
 ├── Day_27_Linear_Regression_OLS_Recap.ipynb
 ├── Day_28_LR_Assumptions_Multicollinearity_VIF_RFE_Regularization.ipynb
+├── Day_29_LR_CaseStudy_Diagnostics_Regularization.ipynb
 └── README.md
 
 
