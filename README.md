@@ -1824,6 +1824,49 @@ and preparing the foundation for classification algorithms.*
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 30                      -->
+<!-- =============================================== -->
+
+## Day 30 — Logistic Regression: Intuition, Math & Optimization
+
+This notebook is part of my **Machine Learning Learning Journey** and introduces
+**Logistic Regression** as a probabilistic classification model.
+
+The focus of this day is on understanding **why Linear Regression fails for
+classification**, how **sigmoid and log-odds** model probabilities, and how
+**Maximum Likelihood Estimation (MLE)** is used to train Logistic Regression.
+
+---
+
+## Topics Covered
+- Why Linear Regression is unsuitable for classification  
+- Binary classification setup  
+- Linear Probability Model and its limitations  
+- Log-odds (logit) transformation  
+- Sigmoid (logistic) function  
+- Decision boundary interpretation  
+- Maximum Likelihood Estimation (MLE)  
+- Log-Likelihood and Negative Log-Likelihood  
+- Log Loss / Binary Cross Entropy  
+- Comparison of MSE vs Log Loss  
+- Logistic Regression assumptions  
+- Basic implementation using `LogisticRegression`
+
+---
+
+## Notebook
+- `Day_30_Logistic_Regression_Intuition_Math_Optimization.ipynb`
+
+---
+
+*Day 30 establishes the mathematical and probabilistic foundation for
+classification models, preparing for evaluation metrics, threshold tuning,
+and imbalanced classification problems.*
+
+
+---
+
 
 
 
@@ -1864,6 +1907,7 @@ ML-Learning-Journey/
 ├── Day_27_Linear_Regression_OLS_Recap.ipynb
 ├── Day_28_LR_Assumptions_Multicollinearity_VIF_RFE_Regularization.ipynb
 ├── Day_29_LR_CaseStudy_Diagnostics_Regularization.ipynb
+├── Day_30_Logistic_Regression_Intuition_Math_Optimization.ipynb
 └── README.md
 
 
