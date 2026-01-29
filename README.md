@@ -1867,6 +1867,47 @@ and imbalanced classification problems.*
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 31                      -->
+<!-- =============================================== -->
+
+## Day 31 — Logistic Regression Case Study, Likelihood & SVM Introduction
+
+This notebook is part of my **Machine Learning Learning Journey** and focuses on a
+practical **Logistic Regression case study**, emphasizing **probability modeling,
+likelihood-based learning**, and **loss formulation**.
+
+The session also introduces the **intuition behind Support Vector Machines (SVM)**,
+marking a transition toward margin-based classification models.
+
+---
+
+## Topics Covered
+- Logistic Regression recap  
+- Log-odds (logit) transformation  
+- Sigmoid function and probability modeling  
+- Classification threshold interpretation  
+- Case study–based intuition  
+- Likelihood function formulation  
+- Log-Likelihood and Negative Log Likelihood  
+- Binary Cross Entropy (Log Loss)  
+- Maximum Likelihood Estimation (MLE)  
+- Assumptions of Logistic Regression  
+- Regularization in Logistic Regression  
+- Conceptual introduction to Support Vector Machines (SVM)  
+
+---
+
+## Notebook
+- `Day_31_Logistic_Regression_CaseStudy_Likelihood_SVM_Intro.ipynb`
+
+---
+
+*Day 31 deepens probabilistic understanding of Logistic Regression and sets the
+foundation for evaluation metrics, threshold tuning, and margin-based classifiers.*
+
+---
+
 
 
 
@@ -1908,6 +1949,7 @@ ML-Learning-Journey/
 ├── Day_28_LR_Assumptions_Multicollinearity_VIF_RFE_Regularization.ipynb
 ├── Day_29_LR_CaseStudy_Diagnostics_Regularization.ipynb
 ├── Day_30_Logistic_Regression_Intuition_Math_Optimization.ipynb
+├── Day_31_Logistic_Regression_CaseStudy_Likelihood_SVM_Intro.ipynb
 └── README.md
 
 
