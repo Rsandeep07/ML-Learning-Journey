@@ -1908,8 +1908,47 @@ foundation for evaluation metrics, threshold tuning, and margin-based classifier
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 32                      -->
+<!-- =============================================== -->
 
+## Day 32 — Support Vector Machines (SVM): Intuition & Optimization
 
+This notebook is part of my **Machine Learning Learning Journey** and introduces
+**Support Vector Machines (SVM)** as a margin-based classification algorithm.
+
+The focus of this day is on understanding **why probability-based models are not
+always sufficient**, how **SVM maximizes class separation**, and how
+**regularization controls the bias–variance tradeoff**.
+
+---
+
+## Topics Covered
+- Recap of classification thresholds and ROC intuition  
+- Motivation for margin-based classifiers  
+- Support Vector Machines (SVM) fundamentals  
+- Margin and support vectors  
+- Geometric interpretation of decision boundaries  
+- Distance from a point to a hyperplane  
+- Hard Margin SVM  
+- Limitations of Hard Margin  
+- Soft Margin SVM  
+- Role of regularization parameter (C)  
+- SVM vs Logistic Regression  
+- Multiclass classification (OvR, OvO)  
+- Basic SVM implementation using `SVC`
+
+---
+
+## Notebook
+- `Day_32_Support_Vector_Machines_Foundations.ipynb`
+
+---
+
+*Day 32 establishes the geometric and optimization foundations of Support Vector
+Machines, preparing for kernel methods and non-linear decision boundaries.*
+
+---
 
 
 <!-- =============================================== -->
@@ -1950,6 +1989,7 @@ ML-Learning-Journey/
 ├── Day_29_LR_CaseStudy_Diagnostics_Regularization.ipynb
 ├── Day_30_Logistic_Regression_Intuition_Math_Optimization.ipynb
 ├── Day_31_Logistic_Regression_CaseStudy_Likelihood_SVM_Intro.ipynb
+├── Day_32_Support_Vector_Machines_Foundations.ipynb
 └── README.md
 
 
