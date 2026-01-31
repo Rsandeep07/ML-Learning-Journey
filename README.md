@@ -1950,6 +1950,50 @@ Machines, preparing for kernel methods and non-linear decision boundaries.*
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 33                      -->
+<!-- =============================================== -->
+
+## Day 33 — SVM Dual Formulation & Kernel Trick
+
+This notebook is part of my **Machine Learning Learning Journey** and focuses on
+the **optimization and kernel perspective of Support Vector Machines (SVM).**
+
+The session builds on SVM foundations and introduces how dual optimization and
+kernel functions enable **non-linear classification**.
+
+---
+
+## Topics Covered
+- Recap of SVM decision boundary and margin  
+- Hard Margin SVM (primal form)  
+- Lagrangian formulation for constrained optimization  
+- Dual formulation of SVM  
+- Support vectors from dual perspective  
+- Soft Margin SVM and slack variables  
+- Hinge loss intuition  
+- Motivation for kernel methods  
+- Kernel Trick concept  
+- Common kernels:
+  - Linear  
+  - Polynomial  
+  - RBF (Gaussian)  
+  - Sigmoid  
+- XOR problem and non-linear separability  
+- Importance of feature scaling in SVM  
+
+---
+
+## Notebook
+- `Day_33_SVM_Dual_Formulation_and_Kernel_Trick.ipynb`
+
+---
+
+*Day 33 deepens SVM understanding by connecting optimization theory with
+kernel-based non-linear modeling.*
+
+---
+
 
 <!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
@@ -1990,6 +2034,7 @@ ML-Learning-Journey/
 ├── Day_30_Logistic_Regression_Intuition_Math_Optimization.ipynb
 ├── Day_31_Logistic_Regression_CaseStudy_Likelihood_SVM_Intro.ipynb
 ├── Day_32_Support_Vector_Machines_Foundations.ipynb
+├── Day_33_SVM_Dual_Formulation_and_Kernel_Trick.ipynb
 └── README.md
 
 
