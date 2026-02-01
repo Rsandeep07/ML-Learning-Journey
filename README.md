@@ -1994,6 +1994,50 @@ kernel-based non-linear modeling.*
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 34                      -->
+<!-- =============================================== -->
+
+## Day 34 — SVM Case Study & Ensemble Learning
+
+This notebook is part of my **Machine Learning Learning Journey** and focuses on a
+practical **SVM case study** followed by an introduction to **Ensemble Learning
+techniques**.
+
+The session highlights **why single models fail**, how **soft-margin SVM handles
+real-world data**, and how **ensembles improve model performance and stability**.
+
+---
+
+## Topics Covered
+- Recap of SVM fundamentals  
+- Hard vs Soft Margin SVM  
+- Slack variables and hinge loss  
+- Role of regularization parameter (C)  
+- Kernel trick recap  
+- Multiclass SVM strategies (OvR, OvO)  
+- Motivation for ensemble learning  
+- Weak vs strong learners  
+- Ensemble types (parallel vs sequential)  
+- Voting ensemble (hard & soft voting)  
+- Bagging (Bootstrap Aggregation)  
+- Random Forest intuition  
+- Bias–variance tradeoff in ensembles  
+- Interpretability vs performance tradeoff  
+
+---
+
+## Notebook
+- `Day_34_SVM_CaseStudy_and_Ensemble_Learning.ipynb`
+
+---
+
+*Day 34 bridges margin-based classifiers with ensemble methods, setting the
+foundation for boosting techniques and advanced ensemble models.*
+
+---
+
+
 
 <!-- =============================================== -->
 <!--         REPOSITORY STRUCTURE                    -->
@@ -2035,6 +2079,7 @@ ML-Learning-Journey/
 ├── Day_31_Logistic_Regression_CaseStudy_Likelihood_SVM_Intro.ipynb
 ├── Day_32_Support_Vector_Machines_Foundations.ipynb
 ├── Day_33_SVM_Dual_Formulation_and_Kernel_Trick.ipynb
+├── Day_34_SVM_CaseStudy_and_Ensemble_Learning.ipynb
 └── README.md
 
 
