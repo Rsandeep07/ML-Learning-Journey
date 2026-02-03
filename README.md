@@ -2037,6 +2037,50 @@ foundation for boosting techniques and advanced ensemble models.*
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 35                      -->
+<!-- =============================================== -->
+
+## Day 35 — Boosting Ensembles: AdaBoost & Gradient Boosting
+
+This notebook is part of my **Machine Learning Learning Journey** and focuses on
+**Boosting-based ensemble methods**, which aim to reduce **model bias** by learning
+from previous mistakes.
+
+The session builds on ensemble fundamentals and explains how **sequential learning**
+creates stronger models from weak learners.
+
+---
+
+## Topics Covered
+- Recap of ensemble learning  
+- Bagging vs Boosting comparison  
+- Sequential learning intuition  
+- Weak learners and decision stumps  
+- AdaBoost (Adaptive Boosting):
+  - Sample reweighting
+  - Learner importance  
+- Boosting and imbalanced data handling  
+- Gradient Boosting intuition  
+- Residual-based learning  
+- Learning rate and overfitting control  
+- Introduction to XGBoost  
+- Practical implementation using:
+  - `AdaBoostClassifier`
+  - `GradientBoostingClassifier`
+
+---
+
+## Notebook
+- `Day_35_Boosting_AdaBoost_GradientBoosting.ipynb`
+
+---
+
+*Day 35 introduces bias-reducing ensemble techniques and sets the foundation for
+advanced boosting algorithms and hyperparameter tuning.*
+
+----
+
 
 
 <!-- =============================================== -->
@@ -2080,6 +2124,7 @@ ML-Learning-Journey/
 ├── Day_32_Support_Vector_Machines_Foundations.ipynb
 ├── Day_33_SVM_Dual_Formulation_and_Kernel_Trick.ipynb
 ├── Day_34_SVM_CaseStudy_and_Ensemble_Learning.ipynb
+├── Day_35_Boosting_AdaBoost_GradientBoosting.ipynb
 └── README.md
 
 
