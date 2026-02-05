@@ -2081,6 +2081,70 @@ advanced boosting algorithms and hyperparameter tuning.*
 
 ----
 
+<!-- =============================================== -->
+<!--      TRANSITION: MACHINE LEARNING → DEEP LEARNING -->
+<!-- =============================================== -->
+
+## Transition: Machine Learning → Deep Learning
+
+The following days mark the transition from **classical Machine Learning**
+to **Deep Learning foundations**.
+
+This phase focuses on understanding:
+- Why traditional ML struggles with modern data
+- How Deep Learning overcomes these limitations
+- Neural networks as the core building block of DL
+
+This transition ensures continuity from ML fundamentals to
+representation learning and neural network–based models.
+
+---
+
+<!-- =============================================== -->
+<!--                     DAY 36                      -->
+<!-- =============================================== -->
+
+## Day 36 — Introduction to Deep Learning
+
+This notebook is part of my **Machine Learning Learning Journey** and marks the
+formal transition from **Machine Learning** to **Deep Learning**.
+
+The focus of this day is on understanding **why Deep Learning is required**,
+how it differs from traditional ML, and how **neural networks** are inspired
+by biological neurons.
+
+---
+
+## Topics Covered
+- Limitations of traditional Machine Learning  
+- Curse of dimensionality  
+- ML vs DL performance as data increases  
+- Role of large datasets and GPUs  
+- Deep Learning as a subset of ML  
+- Historical evolution of Deep Learning  
+- Bottlenecks that delayed DL adoption  
+- Structured vs unstructured data  
+- Manual feature engineering vs automatic feature learning  
+- DL architectures by data type (ANN, CNN, RNN, Transformers)  
+- Interpretability vs performance tradeoff  
+- Parametric vs non-parametric models  
+- Biological neuron inspiration  
+- McCulloch–Pitts (MCP) neuron  
+- Excitatory and inhibitory signals  
+- When to prefer ML vs DL  
+
+---
+
+## Notebook
+- `Day_36_Introduction_to_Deep_Learning.ipynb`
+
+---
+
+*Day 36 establishes the conceptual foundation for neural networks and prepares
+the ground for perceptrons, activation functions, and deep neural architectures.*
+
+---
+
 
 
 <!-- =============================================== -->
@@ -2125,6 +2189,7 @@ ML-Learning-Journey/
 ├── Day_33_SVM_Dual_Formulation_and_Kernel_Trick.ipynb
 ├── Day_34_SVM_CaseStudy_and_Ensemble_Learning.ipynb
 ├── Day_35_Boosting_AdaBoost_GradientBoosting.ipynb
+├── Day_36_Introduction_to_Deep_Learning.ipynb
 └── README.md
 
 
