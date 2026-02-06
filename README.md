@@ -2145,6 +2145,49 @@ the ground for perceptrons, activation functions, and deep neural architectures.
 
 ---
 
+<!-- =============================================== -->
+<!--                     DAY 37                      -->
+<!-- =============================================== -->
+
+## Day 37 — MCP Neuron, Logic Gates & Perceptron Foundations
+
+This notebook is part of my **Machine Learning Learning Journey** and continues
+the transition into **Deep Learning foundations** by introducing the first
+artificial neuron models.
+
+The session focuses on understanding how **logical decision-making** can be
+modeled using neurons and how **learning is introduced through the Perceptron**.
+
+---
+
+## Topics Covered
+- Artificial neuron concept  
+- McCulloch–Pitts (MCP) neuron  
+- Mathematical formulation of MCP neuron  
+- Excitatory and inhibitory inputs  
+- Logic gates using MCP neuron:
+  - AND  
+  - OR  
+  - NOT  
+  - NAND / NOR  
+- Limitations of MCP neuron  
+- Introduction to the Perceptron model  
+- Perceptron mathematical formulation  
+- Perceptron learning rule (conceptual)  
+- MCP neuron vs Perceptron comparison  
+
+---
+
+## Notebook
+- `Day_37_MCP_Neuron_Logic_Gates_and_Perceptron.ipynb`
+
+---
+
+*Day 37 establishes the logical and mathematical foundation required for
+activation functions, learning algorithms, and multi-layer neural networks.*
+
+---
+
 
 
 <!-- =============================================== -->
@@ -2190,6 +2233,7 @@ ML-Learning-Journey/
 ├── Day_34_SVM_CaseStudy_and_Ensemble_Learning.ipynb
 ├── Day_35_Boosting_AdaBoost_GradientBoosting.ipynb
 ├── Day_36_Introduction_to_Deep_Learning.ipynb
+├── Day_37_MCP_Neuron_Logic_Gates_and_Perceptron.ipynb
 └── README.md
 
 
